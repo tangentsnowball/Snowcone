@@ -156,7 +156,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			background-image:linear-gradient(top, rgba(255,255,255,1) 0%,rgba(227,227,227,1) 1%,rgba(187,187,187,1) 100%);
 		}
 			.app-btn:hover{cursor:pointer;}
-			.app-btn:before{font-family:"SnowconeRegular";text-align:left;padding:0 1em 0 0;}
+			.app-btn:before{font-family:"SnowconeRegular";text-align:left;padding:0 0.35em 0 0;}
 				.btn-approved:before{content:"C";}
 				.btn-unselected:before{content:"B";}
 				.btn-alert:before{content:"A";}
