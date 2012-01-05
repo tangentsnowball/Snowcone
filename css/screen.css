@@ -159,8 +159,8 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 ======== */
 	html{background:#FCF8FA;}
 	body{width:700px;margin:0 auto 0 auto;}
-	header{background:#E90E8C;color:#fff;text-align:center;text-shadow:0 1px 0 #6D0641;border-radius:0 0 20px 20px;box-shadow:0 1px 0 #999;padding:1em 0;margin:0 0 2em 0;line-height:1.3em;}
-		h1{font-size:2em;color:#fff;margin:0 0 0.5em 0;}  
+	header{background:#E90E8C;color:#fff;text-align:center;text-shadow:0 1px 0 #6D0641;border-radius:0 0 20px 20px;box-shadow:0 1px 0 #999;padding:1.5em 0;margin:0 0 2em 0;line-height:1.3em;}
+		h1{font-size:2em;color:#fff;margin:0 0 0.25em 0;}  
 		h2{font-size:1.5em;color:#fff;margin:0;}  
 		h1:before{font-family:"SnowconeRegular";content:"z";padding:0 0.15em 0 0;}  
 	body>p{color:#333;text-shadow:0 1px 0 #fff;font-size:1.2em;line-height:1.5em;padding:0 20px;margin:0 0 2em 0;}  
