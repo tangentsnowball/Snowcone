@@ -159,7 +159,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 ======== */
 	html{background:#FCF8FA;}
 	body{width:700px;margin:0 auto 0 auto;}
-	body>h1{background:#E90E8C;color:#fff;text-align:center;margin:0 0 0.5em 0;line-height:80px;font-size:2em;text-shadow:0 1px 0 #6D0641;border-radius:0 0 20px 20px;box-shadow:0 1px 0 #999;}  
+	body>h1{background:#E90E8C;color:#fff;text-align:center;margin:0 0 0.5em 0;line-height:1.3em;font-size:2em;text-shadow:0 1px 0 #6D0641;border-radius:0 0 20px 20px;box-shadow:0 1px 0 #999;padding:1em 0;}  
 		body>h1:before{font-family:"SnowconeRegular";content:"z";padding:0 0.15em 0 0;}  
 	body>p{color:#333;text-shadow:0 1px 0 #fff;font-size:1.2em;line-height:1.5em;padding:0 20px;margin:0 0 2em 0;}  
 	#icons{list-style:none;padding:0;margin:0;-moz-column-count:3;-webkit-column-count:3;column-count:3;}  
