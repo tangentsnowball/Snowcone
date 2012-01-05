@@ -153,7 +153,6 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 				.ico-view:before{content:"F";}
 				.ico-sync:before{content:"G";}
 				.ico-home:before{content:"H";}
-        
 	
 /*========
 [=4:Global layout styles]
@@ -166,6 +165,17 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 	#icons{list-style:none;padding:0;margin:0;-moz-column-count:3;-webkit-column-count:3;column-count:3;}  
 		#icons li{font-size:1.5em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
 
+/*========
+[=6:Media queries]
+======== */	
+	/*--[=6a:Mobile]--*/
+		@media only screen and (min-width:300px) and (max-width:767px) {   
+			body{width:90%;}
+				body>h1{font-size:1.5em;margin:0 0 1em 0;} 
+				body>p{font-size:1.1em;margin:0 0 1em 0;}
+				#icons{-moz-column-count:1;-webkit-column-count:1;column-count:1;}
+
+		}
 
 
 		
