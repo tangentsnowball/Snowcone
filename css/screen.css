@@ -155,7 +155,19 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			background-image:-ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(227,227,227,1) 1%,rgba(187,187,187,1) 100%);
 			background-image:linear-gradient(top, rgba(255,255,255,1) 0%,rgba(227,227,227,1) 1%,rgba(187,187,187,1) 100%);
 		}
-			.app-btn:hover{cursor:pointer;}
+			.app-btn:hover{
+				cursor:pointer;
+				border-color:#349B31;
+				color:#fff;
+				text-shadow:0 -1px 0 #111;
+				background: rgb(70,234,125); /* Old browsers */
+				background: -moz-linear-gradient(top, rgba(70,234,125,1) 0%, rgba(23,155,43,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(70,234,125,1)), color-stop(100%,rgba(23,155,43,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, rgba(70,234,125,1) 0%,rgba(23,155,43,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, rgba(70,234,125,1) 0%,rgba(23,155,43,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, rgba(70,234,125,1) 0%,rgba(23,155,43,1) 100%); /* IE10+ */
+				background: linear-gradient(top, rgba(70,234,125,1) 0%,rgba(23,155,43,1) 100%); /* W3C */
+			}
 			.app-btn:before{font-family:"SnowconeRegular";text-align:left;padding:0 0.35em 0 0;}
 				.btn-approved:before{content:"C";}
 				.btn-unselected:before{content:"B";}
