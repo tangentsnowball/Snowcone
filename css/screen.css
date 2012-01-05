@@ -94,11 +94,11 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 	/*--[=2b:Links]--*/
 		:focus{outline:none;}
 		/*-Inline links-*/
-			a{color:#5038AA;text-decoration:none;font-size:inherit;}
-				a:link{color:#5038AA;text-decoration:none;}
-				a:visited{color:#5038AA;text-decoration:none;}
-				a:hover{color:#8CAC1B;text-decoration:none;}
-				a:active{color:#5038AA;text-decoration:none;}		
+			a{color:#E90E8C;text-decoration:none;font-size:inherit;}
+				a:link{color:#E90E8C;text-decoration:none;}
+				a:visited{color:#E90E8C;text-decoration:none;}
+				a:hover{color:#E90E8C;text-decoration:none;border-bottom:1px dotted #E90E8C;}
+				a:active{color:#E90E8C;text-decoration:none;}		
 		/*-Linked images-*/
 			a img{border:none;}
 	/*--[=2c:Images]--*/
