@@ -168,12 +168,14 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 				background: -ms-linear-gradient(top, rgba(70,234,125,1) 0%,rgba(23,155,43,1) 100%); /* IE10+ */
 				background: linear-gradient(top, rgba(70,234,125,1) 0%,rgba(23,155,43,1) 100%); /* W3C */
 			}
-			.app-btn:before{font-family:"SnowconeRegular";text-align:left;padding:0 0.35em 0 0;}
-				.btn-approved:before{content:"C";}
-				.btn-unselected:before{content:"B";}
+			.app-btn:before{font-family:"SnowconeRegular";text-align:left;padding:0 0.35em 0 0;} 
 				.btn-alert:before{content:"A";}
+			    .btn-unselected:before{content:"B";}
+				.btn-approved:before{content:"C";}
 				.btn-expand:before{content:"D";}
 				.btn-contract:before{content:"E";}
+				.btn-view:before{content:"F";}
+				.btn-sync:before{content:"G";}
 				.btn-home:before{content:"H";}
         
 	
