@@ -158,7 +158,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 [=4:Global layout styles]
 ======== */
 	html{background:#FCF8FA;}
-	body{width:700px;margin:0 auto 0 auto;}
+	body{width:700px;margin:0 auto 0 auto;padding:0 0 3em 0;}
 	header{background:#E90E8C;color:#fff;text-align:center;text-shadow:0 1px 0 #6D0641;border-radius:0 0 20px 20px;box-shadow:0 1px 0 #999;padding:1.5em 0;margin:0 0 2em 0;line-height:1.3em;}
 		h1{font-size:2em;color:#fff;margin:0 0 0.25em 0;}  
 		h2{font-size:1.5em;color:#fff;margin:0;}  
@@ -166,6 +166,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 	body>p{color:#333;text-shadow:0 1px 0 #fff;font-size:1.2em;line-height:1.5em;padding:0 20px;margin:0 0 2em 0;}  
 	#icons{list-style:none;padding:0;margin:0;-moz-column-count:3;-webkit-column-count:3;column-count:3;}  
 		#icons li{font-size:1.5em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
+		#icons li:last-child{border-bottom:none;box-shadow:none;}  
 
 /*========
 [=6:Media queries]
