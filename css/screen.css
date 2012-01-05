@@ -153,6 +153,14 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 				.ico-view:before{content:"F";}
 				.ico-sync:before{content:"G";}
 				.ico-home:before{content:"H";}
+				.ico-outline_down:before{content:"I";}
+				.ico-outline_up:before{content:"J";}
+				.ico-outline_right:before{content:"K";}
+				.ico-outline_left:before{content:"L";}
+				.ico-stop:before{content:"M";}
+				.ico-mapmarker:before{content:"N";}
+				.ico-favourite:before{content:"O";}
+				.ico-tangentsnowball:before{content:"z";}
 	
 /*========
 [=4:Global layout styles]
