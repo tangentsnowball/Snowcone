@@ -145,7 +145,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 ======== */ 
 	/*--[=3a: Set appearance to relevent elements]--*/
 		.app-btn{
-			border-radius:0.21em;-moz-border-radius:0.21em;-webkit-border-radius:0.21em;-o-border-radius:0.21em;border-width:1px;border-style:solid;text-shadow:0 1px 0 #fff;color:#474747;text-align:center;padding:0.5em;font-size:1.5em;display:inline-block;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box; 
+			border-radius:0.21em;-moz-border-radius:0.21em;-webkit-border-radius:0.21em;-o-border-radius:0.21em;border-width:1px;border-style:solid;text-shadow:0 1px 0 #fff;color:#474747;padding:0.5em;font-size:1.5em;display:inline-block;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box; 
 			border-color:#c0c0c0;
 			background-color:#d0d0d0;
 			background-image:-moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(227,227,227,1) 1%, rgba(187,187,187,1) 100%);
@@ -156,7 +156,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			background-image:linear-gradient(top, rgba(255,255,255,1) 0%,rgba(227,227,227,1) 1%,rgba(187,187,187,1) 100%);
 		}
 			.app-btn:hover{cursor:pointer;}
-			.app-btn:before{font-family:"SnowconeRegular";padding-right:0.25em;}
+			.app-btn:before{font-family:"SnowconeRegular";text-align:left;padding:0 1em 0 0;}
 				.btn-approved:before{content:"C";}
 				.btn-unselected:before{content:"B";}
 				.btn-alert:before{content:"A";}
@@ -171,7 +171,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 	html{background:#ECECEC;}
 	body{width:500px;margin:20px auto 0 auto;}
 	body>h1{border-top:1px solid #000;border-bottom:1px solid #000;text-align:center;margin:0 0 0.5em 0;padding:0.25em 0;text-shadow:0 1px 0 #fff;}  
-	.app-btn{display:block;width:100%;margin:0 0 1em 0;}  
+	.app-btn{display:block;width:180px;margin:0 auto 1em auto;}  
 
 
 
