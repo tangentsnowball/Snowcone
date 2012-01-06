@@ -16,7 +16,7 @@
 			    font-style: normal;
 			}                           
    
-			.app-ico:before{font-family:SnowconeRegular;text-align:left;padding:0 0.5em 0 0;content:attr(data-icon);} 
+			.app-ico:before{font-family:'SnowconeRegular';text-align:left;padding:0 0.5em 0 0;content:attr(data-icon);} 
 
 		
 		
