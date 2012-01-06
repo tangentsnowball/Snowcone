@@ -40,13 +40,22 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			@font-face {
 			    font-family: 'SnowconeRegular';
 			    src: url('../fonts/snowcone-regular-webfont.eot');
-			    src: url('../fonts/snowcone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+			    src: local('☺'),
 			         url('../fonts/snowcone-regular-webfont.woff') format('woff'),
 			         url('../fonts/snowcone-regular-webfont.ttf') format('truetype'),
 			         url('../fonts/snowcone-regular-webfont.svg#SnowconeRegular') format('svg');
 			    font-weight: normal;
 			    font-style: normal;
-			}
+			}                           
+			
+			
+			font-family: 'Pictos';
+			src: url('pictos-web.eot');
+			src: local('☺'), 
+			url('pictos-web.woff') format('woff'), 
+			url('pictos-web.ttf') format('truetype'), 		
+			url('pictos-web.svg#webfontIyfZbseF') format('svg');
+			
 		/*-Set base rules for all typographic elements*/
 			/*Set base font-family/line-height and declare the px size of an em unit*/    
 				body{font:14px/1.45em Arial,helvetica,sans-serif;color:#333;}
@@ -148,7 +157,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			.app-ico:before{font-family:SnowconeRegular;text-align:left;padding:0 0.5em 0 0;} 
 				.ico-alert:before{content:"A";}
 			    .ico-cross:before{content:"B";}
-				.ico-tick:before{content: attr(data-icon);}
+				.ico-tick:before{content:"C";}
 				.ico-expand:before{content:"D";}
 				.ico-contract:before{content:"E";}
 				.ico-view:before{content:"F";}
