@@ -146,7 +146,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 ======== */ 
 	/*--[=3a: Set appearance to relevent elements]--*/
 			.app-ico{font-family:SnowconeRegular;text-align:left;padding:0 0.5em 0 0;} 
-				.ico-alert:before{content:"A";}
+				.ico-alert:before{content:"A";font-family:SnowconeRegular;}
 			    .ico-cross:before{content:"B";}
 				.ico-tick:before{content:"C";}
 				.ico-expand:before{content:"D";}
