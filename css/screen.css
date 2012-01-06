@@ -39,11 +39,13 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		/*-Set webfont stacks for all applicable elements-*/  
 			@font-face {
 			    font-family: 'SnowconeRegular';
-			    src: url('../fonts/snowcone-regular-webfont.eot');
-			    src: url('../fonts/snowcone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+			    src: url('http://tangentsnowball.github.com/Snowcone/fonts/snowcone-regular-webfont.eot');
+			    src: url('http://tangentsnowball.github.com/Snowcone/fonts/snowcone-regular-webfont.eot?#iefix') format('embedded-opentype'),
 			         url('../fonts/snowcone-regular-webfont.woff') format('woff'),
 			         url('../fonts/snowcone-regular-webfont.ttf') format('truetype'),
 			         url('../fonts/snowcone-regular-webfont.svg#SnowconeRegular') format('svg');
+			    font-weight: normal;
+			    font-style: normal;
 			}
 		/*-Set base rules for all typographic elements*/
 			/*Set base font-family/line-height and declare the px size of an em unit*/    
