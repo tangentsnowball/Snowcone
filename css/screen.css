@@ -188,6 +188,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 				span.app-ico:before{padding:0;}
 				
 				.icon{font-family:SnowconeRegular;}
+					.icon:before{content:"U";}
 /*========
 [=4:Global layout styles]
 ======== */
