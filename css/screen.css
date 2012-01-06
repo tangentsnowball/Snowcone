@@ -146,8 +146,8 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 	/*--[=3a: Set appearance to relevent elements]--*/
 			.app-ico:before{font-family:"SnowconeRegular";text-align:left;padding:0 0.5em 0 0;} 
 				.ico-alert:before{content:"A";}
-			    .ico-unselected:before{content:"B";}
-				.ico-approved:before{content:"C";}
+			    .ico-cross:before{content:"B";}
+				.ico-tick:before{content:"C";}
 				.ico-expand:before{content:"D";}
 				.ico-contract:before{content:"E";}
 				.ico-view:before{content:"F";}
@@ -164,6 +164,10 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 				.ico-profile:before{content:"P";}
 				.ico-magnify:before{content:"Q";}
 				.ico-comment:before{content:"R";}
+				.ico-settings:before{content:"S";}
+				.ico-edit:before{content:"T";}
+				.ico-email:before{content:"U";}
+				.ico-shop_bag:before{content:"V";}
 	
 /*========
 [=4:Global layout styles]
