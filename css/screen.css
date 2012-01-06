@@ -160,7 +160,6 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 				.ico-stop:before{content:"M";}
 				.ico-mapmarker:before{content:"N";}
 				.ico-favourite:before{content:"O";}
-				.ico-tangentsnowball:before{content:"z";}
 				.ico-profile:before{content:"P";}
 				.ico-magnify:before{content:"Q";}
 				.ico-comment:before{content:"R";}
@@ -168,7 +167,22 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 				.ico-edit:before{content:"T";}
 				.ico-email:before{content:"U";}
 				.ico-shop_bag:before{content:"V";}
-	
+				.ico-logout:before{content:"W";} 
+				.ico-favourite:before{content:"X";} 
+				.ico-rss:before{content:"Z";} 
+				.ico-link:before{content:"a";} 
+				.ico-fill_down:before{content:"b";} 
+				.ico-fill_up:before{content:"c";} 
+				.ico-fill_right:before{content:"d";} 
+				.ico-fill_left:before{content:"e";} 
+				.ico-facebook_fill:before{content:"f";} 
+				.ico-facebook_plain:before{content:"g";} 
+				.ico-googleplus:before{content:"h";} 
+				.ico-blacklist:before{content:"i";} 
+				.ico-twitter_bird:before{content:"t";} 
+				.ico-twitter_plain:before{content:"u";} 
+				.ico-speedo:before{content:"y";}  
+				.ico-tangentsnowball:before{content:"z";}
 /*========
 [=4:Global layout styles]
 ======== */
@@ -180,7 +194,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		h1:before{font-family:"SnowconeRegular";content:"z";padding:0 0.15em 0 0;}  
 	body>p{color:#333;text-shadow:0 1px 0 #fff;font-size:1.2em;line-height:1.5em;padding:0 20px;margin:0 0 2em 0;}  
 	#icons{list-style:none;padding:0;margin:0;-moz-column-count:3;-webkit-column-count:3;column-count:3;}  
-		#icons li{font-size:1.5em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
+		#icons li{font-size:1.3em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
 		#icons li:last-child{border-bottom:none;box-shadow:none;}  
 
 /*========
