@@ -145,7 +145,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 [=3:Modular components]
 ======== */ 
 	/*--[=3a: Set appearance to relevent elements]--*/
-			.app-ico{font-family:SnowconeRegular;text-align:left;padding:0 0.5em 0 0;} 
+			.app-ico:before{font-family:SnowconeRegular;text-align:left;padding:0 0.5em 0 0;} 
 				.ico-alert:before{content:"A";}
 			    .ico-cross:before{content:"B";}
 				.ico-tick:before{content:"C";}
@@ -199,7 +199,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		#intro{color:#333;text-shadow:0 1px 0 #fff;font-size:1.2em;line-height:1.5em;margin:0 0 3em 0;}  
 		section{padding:1em 0 5em 0;border-top:1px dotted #666;}
 		 section h1:first-child{font-size:1.5em;margin:0 0 1.5em 0;padding:0.5em 0 1em 0;border-bottom:1px dotted #666;color:#E90E8C;text-shadow:0 1px 0 #fff;text-align:center;}
-		#icons{list-style:none;padding:0;margin:0;-moz-column-count:2;-webkit-column-count:2;column-count:2;font-family:SnowconeRegular;}  
+		#icons{list-style:none;padding:0;margin:0;-moz-column-count:2;-webkit-column-count:2;column-count:2;}  
 			#icons li{font-size:1.3em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
        
 		#example-vcard{box-shadow:10px 10px 0 #F1ECF0,0 0 2px #F1ECF0;border:3px solid #D2CED1;border-radius:30px;padding:1em 20px;width:60%;margin:0 auto;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background:#fff;}
