@@ -44,8 +44,6 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			         url('../fonts/snowcone-regular-webfont.woff') format('woff'),
 			         url('../fonts/snowcone-regular-webfont.ttf') format('truetype'),
 			         url('../fonts/snowcone-regular-webfont.svg#SnowconeRegular') format('svg');
-			    font-weight: normal;
-			    font-style: normal;
 			}
 		/*-Set base rules for all typographic elements*/
 			/*Set base font-family/line-height and declare the px size of an em unit*/    
@@ -145,7 +143,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 [=3:Modular components]
 ======== */ 
 	/*--[=3a: Set appearance to relevent elements]--*/
-			.app-ico:before{font-family:SnowconeRegular,courier;text-align:left;padding:0 0.5em 0 0;} 
+			.app-ico:before{font-family:"SnowconeRegular",courier;text-align:left;padding:0 0.5em 0 0;} 
 				.ico-alert:before{content:"A";}
 			    .ico-cross:before{content:"B";}
 				.ico-tick:before{content:"C";}
