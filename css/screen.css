@@ -49,12 +49,6 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			}                           
 			
 			
-			font-family: 'Pictos';
-			src: url('pictos-web.eot');
-			src: local('☺'), 
-			url('pictos-web.woff') format('woff'), 
-			url('pictos-web.ttf') format('truetype'), 		
-			url('pictos-web.svg#webfontIyfZbseF') format('svg');
 			
 		/*-Set base rules for all typographic elements*/
 			/*Set base font-family/line-height and declare the px size of an em unit*/    
