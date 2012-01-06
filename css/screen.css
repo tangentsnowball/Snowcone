@@ -215,10 +215,11 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 	/*--[=6a:Mobile]--*/
 		@media only screen and (min-width:300px) and (max-width:767px) {   
 			body{width:90%;}
-				h1{font-size:1.5em;margin:0;} 
-				h2{font-size:1em;} 
-				body>p{font-size:1.1em;margin:0 0 1em 0;}
-				#icons{-moz-column-count:1;-webkit-column-count:1;column-count:1;}
+				header h1{font-size:1.5em;margin:0;} 
+				header h2{font-size:1em;} 
+				#intro{font-size:1.1em;margin:0 0 1em 0;}
+				#icons{-moz-column-count:1;-webkit-column-count:1;column-count:1;}  
+				#example-vcard{width:100%;}
 
 		}
 
