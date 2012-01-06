@@ -49,13 +49,14 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			}
 		/*-Set base rules for all typographic elements*/
 			/*Set base font-family/line-height and declare the px size of an em unit*/    
-				body{font:14px/1.45em Arial,helvetica,sans-serif;color:#444;}
+				body{font:14px/1.45em Arial,helvetica,sans-serif;color:#333;}
 			/*Block elements*/   
 				p{margin:0 0 0.82em 0;line-height:1.45em;}
 				hgroup{position:relative;}
 				h1,h2,h3,h4,h5,h6{line-height:1.3em;font-weight:normal;margin:2.08em 0 0.41em 0;color:#111;}
 					h1{font-size:3em;margin:1.1em 0 0.83em 0;} 
-					h2,h3,h4,h5,h6{font-size:1em;}
+					h2{font-size:1.5em;}
+					h3,h4,h5,h6{font-size:1em;}
 				ul,ol,dl{margin:0 0 1.1em 2.5em;padding:1.1em 0 0 0;}	
 						ul li,ol li{margin:0 0 0.41em 0;}
 					ul{list-style:disc outside;}
@@ -183,20 +184,31 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 				.ico-twitter_plain:before{content:"u";} 
 				.ico-speedo:before{content:"y";}  
 				.ico-tangentsnowball:before{content:"z";}
+				
+				span.app-ico:before{padding:0;}
 /*========
 [=4:Global layout styles]
 ======== */
 	html{background:#FCF8FA;}
 	body{width:700px;margin:0 auto 0 auto;padding:0 0 3em 0;}
 	header{background:#E90E8C;color:#fff;text-align:center;text-shadow:0 1px 0 #6D0641;border-radius:0 0 20px 20px;box-shadow:0 1px 0 #999;padding:1.5em 0;margin:0 0 2em 0;line-height:1.3em;}
-		h1{font-size:2em;color:#fff;margin:0 0 0.25em 0;}  
-		h2{font-size:1.5em;color:#fff;margin:0;}  
-		h1:before{font-family:"SnowconeRegular";content:"z";padding:0 0.15em 0 0;}  
-	body>p{color:#333;text-shadow:0 1px 0 #fff;font-size:1.2em;line-height:1.5em;padding:0 20px;margin:0 0 2em 0;}  
-	#icons{list-style:none;padding:0;margin:0;-moz-column-count:3;-webkit-column-count:3;column-count:3;}  
-		#icons li{font-size:1.3em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
-		#icons li:last-child{border-bottom:none;box-shadow:none;}  
-
+		header h1{font-size:2em;color:#fff;margin:0 0 0.25em 0;}  
+		header h2{font-size:1.5em;color:#fff;margin:0;}  
+		header h1:before{font-family:"SnowconeRegular";content:"z";padding:0 0.15em 0 0;}        
+	#contents{padding:0 20px;}	
+		#intro{color:#333;text-shadow:0 1px 0 #fff;font-size:1.2em;line-height:1.5em;margin:0 0 3em 0;}  
+		section{padding:1em 0 5em 0;border-top:1px dotted #666;}
+		 section h1:first-child{font-size:1.5em;margin:0 0 1.5em 0;padding:0.5em 0 1em 0;border-bottom:1px dotted #666;color:#E90E8C;text-shadow:0 1px 0 #fff;text-align:center;}
+		#icons{list-style:none;padding:0;margin:0;-moz-column-count:3;-webkit-column-count:3;column-count:3;}  
+			#icons li{font-size:1.3em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
+			#icons li:last-child{border-bottom:none;box-shadow:none;}  
+       
+		#example-vcard{box-shadow:0 1px 0 #fff;border:3px solid #ccc;border-radius:30px;padding:1em 20px;width:60%;margin:0 auto;}
+			#example-vcard hgroup{margin:0 0 1em 0;padding:0 0 1em 0;border-bottom:1px dotted #ccc;}
+			#example-vcard h1{border:none;margin:0 0 0.25em 0;padding:0;}
+			#example-vcard h2{text-align:center;font-size:1em;margin:0;}
+			#example-vcard ul{list-style:none;padding:0;margin:0;}
+			#example-vcard ul .app-ico:before{font-size:2em;}
 /*========
 [=6:Media queries]
 ======== */	
