@@ -208,7 +208,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			#example-vcard h1{border:none;margin:0 0 0.25em 0;padding:0;}
 			#example-vcard h2{text-align:center;font-size:1em;margin:0;}
 			#example-vcard ul{list-style:none;padding:0;margin:0;}
-			#example-vcard ul .app-ico:before{font-size:2em;}
+			#example-vcard ul .app-ico:before{font-size:2em;position:relative;bottom:-0.15em;}
 /*========
 [=6:Media queries]
 ======== */	
