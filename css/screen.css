@@ -49,7 +49,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			}                           
 		/*-Set base rules for all typographic elements*/
 			/*Set base font-family/line-height and declare the px size of an em unit*/    
-				body{font:14px/1.45em Arial,helvetica,sans-serif;color:#333;}
+				body{font:14px/1.45em sans-serif;color:#333;}
 			/*Block elements*/   
 				p{margin:0 0 0.82em 0;line-height:1.45em;}
 				hgroup{position:relative;}
@@ -145,7 +145,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 [=3:Modular components]
 ======== */ 
 	/*--[=3a: Set appearance to relevent elements]--*/
-			.app-ico:before{font-family:SnowconeRegular;text-align:left;padding:0 0.5em 0 0;} 
+			.app-ico:before{text-align:left;padding:0 0.5em 0 0;} 
 				.ico-alert:before{content:"A";font-family:SnowconeRegular;}
 			    .ico-cross:before{content:"B";}
 				.ico-tick:before{content:"C";}
