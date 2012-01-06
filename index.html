@@ -1,79 +1,125 @@
-<!DOCTYPE HTML>
-	<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>Snowcone demo</title>
-		<meta name="viewport" content="width=device-width,user-scalable=no, scale=1, maximum-scale=1.0" /> 
-		<!--[if lt IE 9]>
-			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link rel="stylesheet" href="css/screen.css" media="screen" />
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+	<meta charset="utf-8">
+	<title>Pictos Examples | The Icon Handbook</title>
+
+		<script type="text/javascript" src="http://use.typekit.com/bnd0tjq.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<link rel="stylesheet" href="/css/style.css" type="text/css" />
+
+		<meta name="description" content="The Icon Handbook is a reference manual, how-to guide and coffee table 'showcase' in one. learn how to design icons for interfaces " />  
+		<meta name="keywords" content="icon, icon design, pictograms, ideograms, metaphor, iconography" />
+		
+		<!-- Here come the favicons -->
+		
+		<!-- Opera Speed Dial Favicon -->
+		<link rel="icon" type="image/png" href="/speeddial-160px.png" />
+					
+		<!-- Standard Favicon -->
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		
+		<!-- For iPhone 4 Retina display: -->
+
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+		
+		<!-- For iPad: -->
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+		
+		<!-- For iPhone: -->
+		<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57x57-precomposed.png">
+	
+		<link rel="stylesheet" href="/css/examples.css" type="text/css" />
+		
+	<style>
+
+	
+	/* These are the Pictos Specific CSS rules */
+	/* The linked CSS files are just for general styling */
+		
+	@font-face {
+	    font-family: 'SnowconeRegular';
+	    src: url('fonts/snowcone-regular-webfont.eot');
+	    src: url('fonts/snowcone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('fonts/snowcone-regular-webfont.woff') format('woff'),
+	         url('fonts/snowcone-regular-webfont.ttf') format('truetype'),
+	         url('fonts/snowcone-regular-webfont.svg#SnowconeRegular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}                           
+	/* one CSS block to rule them all */
+	.icon:before { 
+		font-family:'SnowconeRegular';
+		content: attr(data-icon);
+	}	
+	
+	</style>
+		
+	</head>
+
 	<body>
-		<header>
-		<h1>Snowcone</h1>    
-		<h2>an icon font set by Tangent Snowball</h2>
-		</header> 
-		<div id="contents">
-			<p id="intro">This font set has been designed (with love) by the Tangent Snowball team to be an easily adjustable set of icons for use on projects where icons are required. Using a font set ensures all icons are fully scalable and only need one header call. It is currently in its infancy but we&#x27;ll be expanding it henceforth. <a href="https://github.com/tangentsnowball/Snowcone" title="Fork the Snowcone repo">Fork it here</a></p>
-			<section>  
-				<h1>The full set</h1>            
-				<a href="/" class="icon" data-icon="k">Favourites</a>
-				<ul id="icons">
-					<li><a class="app-ico ico-tick" href="" title="" data-icon="A">Tick</a></li>
-					<li class="app-ico ico-cross">Cross</li>
-					<li class="app-ico ico-alert">Alert</li>
-					<li class="app-ico ico-expand">Expand</li>
-					<li class="app-ico ico-contract">Contract</li>
-					<li class="app-ico ico-home">Home</li>
-					<li class="app-ico ico-view">View</li>
-					<li class="app-ico ico-sync">Sync</li>  
-					<li class="app-ico ico-outline_down">Down</li>  
-					<li class="app-ico ico-outline_up">Up</li>  
-					<li class="app-ico ico-outline_right">Right</li>  
-					<li class="app-ico ico-outline_left">Left</li>  
-					<li class="app-ico ico-stop">Stop</li>  
-					<li class="app-ico ico-mapmarker">Map marker</li>  
-					<li class="app-ico ico-favourite">Favourite</li>  
-					<li class="app-ico ico-profile">Profile</li>  
-					<li class="app-ico ico-magnify">Magnify</li>  
-					<li class="app-ico ico-comment">Comment</li>  
-					<li class="app-ico ico-settings">Settings</li>  
-					<li class="app-ico ico-edit">Edit</li>  
-					<li class="app-ico ico-email">Email</li>  
-					<li class="app-ico ico-shop_bag">Shopping bag</li>  
-					<li class="app-ico ico-logout">Logout</li>  
-					<li class="app-ico ico-heart">Love this</li>  
-					<li class="app-ico ico-rss">RSS</li>  
-					<li class="app-ico ico-link">Link</li>  
-					<li class="app-ico ico-fill_down">Down filled</li>  
-					<li class="app-ico ico-fill_up">Up filled</li>  
-					<li class="app-ico ico-fill_right">Right filled</li>  
-					<li class="app-ico ico-fill_left">Left filled</li>  
-					<li class="app-ico ico-facebook">Facebook</li>  
-					<li class="app-ico ico-twitter">Twitter</li>  
-					<li class="app-ico ico-googleplus">Google+</li>  
-					<li class="app-ico ico-blacklist">Blacklist</li>  
-					<li class="app-ico ico-speedo">Speedo (by <a href="http://www.twitter.com/nathanstaines" title="Follow Nathan on twitter">Natho</a>)</li>
-					<li class="app-ico ico-tangentsnowball">Tangent logo</li>  
-				</ul> 
-			</section>   
-			<section>  
-				<h1>In practice</h1>
-				<section id="example-vcard">
-					<hgroup>
-						<h1 class="app-ico ico-profile">Jack Armley</h1>
-						<h2>A web designer at <span class="app-ico ico-tangentsnowball">Tangent Snowball</span></h2>     
-					</hgroup>
-					<ul>
-						<li class="app-ico ico-email"><a href="mailto:aloha@jackarmley.com" title="Email Jack">aloha@jackarmley.com</a></li>
-						<li class="app-ico ico-twitter"><a href="http://www.twitter.com/jackarmley" title="Tweet Jack">@jackarmley</a></li>
-						<li class="app-ico ico-facebook"><a href="" title="Email Jack">Jack Armley</a></li>
-						<li class="app-ico ico-googleplus"><a href="" title="Email Jack">Plus me</a></li>
-						<li class="app-ico ico-link"><a href="" title="Email Jack">Visit my website</a></li>
-					</ul>
-				</section>
-			</section>
+	
+	<h1><a href="/" title="Go to the Home page">The Icon Handbook</a></h1>	
+	<h2>Pictos Font Examples</h2>
+	<section>
+	<h3>Simple Shopping Basket Icon</h3>
+	<div class="basket">
+		<a href="" class="icon" data-icon="$">View Basket</a> (2 items)
+	</div>
+
+	</section>
+	
+	<section>
+	<h3>Toolbar with text-shadow</h3>
+	<ul class="toolbar">
+		<li><a href="/" class="icon" data-icon="A">Favourites</a></li>
+		<li><a href="/" class="icon" data-icon="B">History</a></li>
+		<li><a href="/" class="icon" data-icon="C">Location</a></li>
+
+	</ul>
+	<h3>Toolbar with inset shadow effect <span>(webkit only)</span></h3>
+	<ul class="toolbar inset">
+		<li><a href="/" class="icon" data-icon="k">Favourites</a></li>
+		<li><a href="/" class="icon" data-icon="t">History</a></li>
+		<li><a href="/" class="icon" data-icon="@">Location</a></li>
+
+	</ul>
+	</section>
+	
+	<section>
+	<h3>Media Player Controls</h3>
+	<ul class="player">
+		<li><a href="" class="icon" data-icon="8"><span>Rewind</span></a></li>
+		<li><a href="" class="icon" data-icon="6"><span>Stop</span></a></li>
+
+		<li><a href="" class="icon" data-icon="4"><span>Play</span></a></li>
+		<li><a href="" class="icon" data-icon="7"><span>Forward</span></a></li>
+		<div class="right">
+		<li><a href="" class="icon" data-icon="`"><span>Full Screen</span></a></li>
+		<li><a href="" class="icon" data-icon=">"><span>Volume</span></a></li>
 		</div>
+	</ul>
+
+	</section>
+	
+	<section>
+	<h3>Large Icons</h3>
+	<div class="bigass nolabel">
+		<a href="" class="icon cloud" data-icon="c"><span>Upload to Cloud</span></a>
+		<a href="" class="icon chat" data-icon="q"><span>Chat</span></a>
+	</div>
+
+	<h3>Large Icons with Gradient <span>(webkit only)</span></h3>
+	<div class="bigass gradient nolabel">
+		<a href="" class="icon cloud" data-icon="c"><span>Upload to Cloud</span></a>
+		<a href="" class="icon chat" data-icon="q"><span>Chat</span></a>
+	</div>
+	</section>
+	
+	
 	</body>
+
 </html>
