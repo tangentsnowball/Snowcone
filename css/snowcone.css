@@ -62,8 +62,11 @@ Created: 01.06.2012 (US format date)
 		.ico-tag:before{content:"t";} 
 		.ico-speedo:before{content:"y";}  
 		.ico-tangentsnowball:before{content:"z";}  		
-		
 
+/*========
+[=3:Ensure legacy browsers still see icons]
+======== */ 		
+	.ico-legacy{font-family:'SnowconeRegular';}
 
 	
 
