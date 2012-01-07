@@ -10,10 +10,6 @@ Contents:
 ==================*/ 
 
 /*========
-[=0: Set font-face rules]
-========*/
-
-/*========
 [=1: html5doctor.com reset]
 v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 (jack.armley@tangentsnowball.com: Some lines have been modified, to remove unneccesary styles that will be immediately overridden by the base styles)
@@ -37,16 +33,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 ======== */
 	/*--[=2a:Typography]--*/	
 		/*-Set webfont stacks for all applicable elements-*/  
-			@font-face {
-			    font-family: 'SnowconeRegular';
-			    src: url('../fonts/snowcone-regular-webfont.eot');
-			    src: url('../fonts/snowcone-regular-webfont.eot?#iefix') format('embedded-opentype'),
-			         url('../fonts/snowcone-regular-webfont.woff') format('woff'),
-			         url('../fonts/snowcone-regular-webfont.ttf') format('truetype'),
-			         url('../fonts/snowcone-regular-webfont.svg#SnowconeRegular') format('svg');
-			    font-weight: normal;
-			    font-style: normal;
-			}                           
+		                           
 		/*-Set base rules for all typographic elements*/
 			/*Set base font-family/line-height and declare the px size of an em unit*/    
 				body{font:14px/1.45em sans-serif;color:#333;}
@@ -145,48 +132,8 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 [=3:Modular components]
 ======== */ 
 	/*--[=3a: Set appearance to relevent elements]--*/
-			.app-ico:before{font-family:SnowconeRegular;text-align:left;padding:0 0.5em 0 0;} 
-				.ico-alert:before{content:"A";}
-			    .ico-cross:before{content:"B";}
-				.ico-tick:before{content:"C";}
-				.ico-expand:before{content:"D";}
-				.ico-contract:before{content:"E";}
-				.ico-view:before{content:"F";}
-				.ico-sync:before{content:"G";}
-				.ico-home:before{content:"H";}
-				.ico-outline_down:before{content:"I";}
-				.ico-outline_up:before{content:"J";}
-				.ico-outline_right:before{content:"K";}
-				.ico-outline_left:before{content:"L";}
-				.ico-stop:before{content:"M";}
-				.ico-mapmarker:before{content:"N";}
-				.ico-favourite:before{content:"O";}
-				.ico-profile:before{content:"P";}
-				.ico-magnify:before{content:"Q";}
-				.ico-comment:before{content:"R";}
-				.ico-settings:before{content:"S";}
-				.ico-edit:before{content:"T";}
-				.ico-email:before{content:"U";}
-				.ico-shop_bag:before{content:"V";}
-				.ico-logout:before{content:"W";} 
-				.ico-heart:before{content:"X";} 
-				.ico-rss:before{content:"Z";} 
-				.ico-link:before{content:"a";} 
-				.ico-fill_down:before{content:"b";} 
-				.ico-fill_up:before{content:"c";} 
-				.ico-fill_right:before{content:"d";} 
-				.ico-fill_left:before{content:"e";} 
-				.ico-facebook:before{content:"f";} 
-				.ico-twitter:before{content:"g";} 
-				.ico-googleplus:before{content:"h";} 
-				.ico-blacklist:before{content:"i";} 
-				.ico-twitter_bird:before{content:"t";} 
-				.ico-twitter_plain:before{content:"u";} 
-				.ico-tag:before{content:"t";} 
-				.ico-speedo:before{content:"y";}  
-				.ico-tangentsnowball:before{content:"z";}  
-				
-				abbr.app-ico_legacy{font-family:SnowconeRegular;border-bottom:none;padding:0 0.5em 0 0;}
+			.app-ico:before{padding:0 0.5em 0 0;} 
+
 /*========
 [=4:Global layout styles]
 ======== */
@@ -200,6 +147,8 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		#intro{color:#333;text-shadow:0 1px 0 #fff;font-size:1.2em;line-height:1.5em;margin:0 0 3em 0;}  
 		section{padding:1em 0 5em 0;border-top:1px dotted #666;}
 		 section h1:first-child{font-size:1.5em;margin:0 0 1.5em 0;padding:0.5em 0 1em 0;border-bottom:1px dotted #666;color:#E90E8C;text-shadow:0 1px 0 #fff;text-align:center;}
+		 #implementation_example{border:1px dotted #666;border-radius:30px;padding:1em 20px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background:#fff;}
+		 	#implementation_example h2{margin-top:0;color:#E90E8C;}
 		#icons{list-style:none;padding:0;margin:0;-moz-column-count:2;-webkit-column-count:2;column-count:2;}  
 			#icons li{font-size:1.3em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
        

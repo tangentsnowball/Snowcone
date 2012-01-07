@@ -2,12 +2,13 @@
 	<html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Snowcone demo</title>
+		<title>Snowcone: an icon font set by Tangent Snowball</title>
 		<meta name="viewport" content="width=device-width,user-scalable=no, scale=1, maximum-scale=1.0" /> 
 		<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link rel="stylesheet" href="css/screen.css" media="screen" />
+		<link rel="stylesheet" href="css/snowcone.css" media="screen" />
+		<link rel="stylesheet" href="css/demo.css" media="screen" />
     </head>
 	<body>
 		<header>
@@ -15,7 +16,27 @@
 		<h2>an icon font set by Tangent Snowball</h2>
 		</header> 
 		<div id="contents">
-			<p id="intro">This font set has been designed (with love) by the Tangent Snowball team to be an easily adjustable set of icons for use on projects where icons are required. Using a font set ensures all icons are fully scalable and only need one header call. It is currently in its infancy but we&#x27;ll be expanding it henceforth. <a href="https://github.com/tangentsnowball/Snowcone" title="Fork the Snowcone repo">Fork it here</a></p>
+			<p id="intro">This font set has been lovingly designed by the Tangent Snowball team to be an easily adjustable set of icons to use on websites and web&ndash;apps. Using a font set ensures all icons are fully scalable and only need one header call. It is currently in its infancy but we&#x27;ll be expanding it henceforth. <a href="https://github.com/tangentsnowball/Snowcone" title="Fork the Snowcone repo">Fork it here</a></p>
+			<section>
+				<h1>Support</h1>
+				<p>It's early days yet, but currently Snowcone works on all modern browsers. IE6-8 don't play nice, due to the fact they don't support the :before pseudo class, but we're working on a solution (suggestions welcome).</p>
+			</section>	
+			<section>
+				<h1>Implementation</h1>
+				<ol>
+					<li><a href="https://github.com/tangentsnowball/Snowcone" title="Fork the Snowcone repo">Clone the repo</a></li>
+					<li>Switch to the gh-pages branch</li>
+					<li>From here, grab the <em>demo.css</em> file, and the /fonts/ directory with its contents</li>
+					<li>Include the /fonts/ directory within your website's directory</li>
+					<li>Either include the snowcone.css file witin your website's directory, or copy and paste the rules within to your website's CSS file.</li>
+					<li>In the CSS rules are a set of classes that call each icon. To include an icon in your page, attach one of these classes, and the base icon class to any element.</li>	
+				</ol>
+				<div id="implementation_example">
+					<h2>An example</h2>
+					<p class="app-ico ico-email">Contact me</p>
+					<p><code>&lt;p class="app-ico ico-email"&gt;Contact me&lt;/p&gt;</code></p>	
+				</div>	
+			</section>	
 			<section>  
 				<h1>The full set (for modern browsers)</h1>            
 				<ul id="icons">
@@ -56,15 +77,6 @@
 					<li class="app-ico ico-tag">Tag</li>  
 					<li class="app-ico ico-speedo">Speedo (by <a href="http://www.twitter.com/nathanstaines" title="Follow Nathan on twitter">Natho</a>)</li>
 					<li class="app-ico ico-tangentsnowball">Tangent logo</li>  
-				</ul> 
-			</section> 
-			<section>  
-				<h1>A few examples for IE 6 and 7 (not using :before pseudo classes)</h1>            
-				<ul id="icons">  
-					<li><abbr class="app-ico_legacy" title="Tick icon">C</abbr> Tick</li>
-					<li><abbr class="app-ico_legacy" title="Cross icon">B</abbr> Cross</li>
-					<li><abbr class="app-ico_legacy" title="Alert icon">A</abbr> Alert</li>
-					<li><abbr class="app-ico_legacy" title="Alert icon">D</abbr> Expand</li>
 				</ul> 
 			</section>   
 			<section>  
