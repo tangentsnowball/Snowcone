@@ -6,12 +6,15 @@ var icons = {
 };
 
 $(document).ready(function(){
-	$(".app-ico").each(function(){
-		var icon = $(this).attr("class").split(/\s/);
-		for(key in icons){
-			if([key]==icon[1]){
-				$(this).prepend("<span class='app-legacy_ico'>" + icons[key] + "</span>");
-			};
-		}
-	});
+	if ($.browser.msie){
+		alert( parseInt($.browser.version, 10) );
+		$(".app-ico").each(function(){
+			var icon = $(this).attr("class").split(/\s/);
+			for(key in icons){
+				if([key]==icon[1]){
+					$(this).prepend("<span class='app-legacy_ico'>" + icons[key] + "</span>");
+				};
+			}
+		});
+	}
 });
