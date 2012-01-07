@@ -7,7 +7,7 @@ var icons = {
 var browserver = parseInt($.browser.version, 10)
 
 $(document).ready(function(){
-	if ($.browser.msie && browserver == 7){
+	if ($.browser.msie && browserver == 6 || browserver == 7 || browserver == 8){
 		$(".app-ico").each(function(){
 			var icon = $(this).attr("class").split(/\s/);
 			for(key in icons){
