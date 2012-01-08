@@ -58,4 +58,9 @@ function addicons(){
 			});
 		}
 }
+
+//Run function
+	$(document).ready(function(){
+		addicons();
+	});
 	
