@@ -46,7 +46,7 @@
 	var browserver = parseInt($.browser.version, 10)
 
 //For IE6-7, append each icon element with a span tag
-	$(document).ready(function(){
+	addicons: function(){
 		if ($.browser.msie && browserver == 6 || browserver == 7){
 			$(".app-ico").each(function(){
 				var icon = $(this).attr("class").split(/\s/);
@@ -57,4 +57,5 @@
 				}
 			});
 		}
-	});
+	}
+	
