@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Snowcone: an icon font set by Tangent Snowball</title>
+		<meta name="viewport" content="width=device-width,user-scalable=no, scale=1, maximum-scale=1.0" /> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="scripts/snowcone.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="package/snowcone.css" media="screen" />
+		<link rel="stylesheet" href="gh-pages_styles.css" media="screen" />
+    </head>
+	<body>
+		<header>
+		<h1>Snowcone</h1>    
+		<h2>an icon font set by Tangent Snowball</h2>
+		</header> 
+		<div id="contents">
+			<p id="intro">This font set has been lovingly designed by the <a href="http://www.tangentsnowball.com" title="Visit our website">Tangent Snowball</a> team to be an easily adjustable set of icons to use on websites and web&ndash;apps. Using a font set ensures all icons are fully scalable and only need one header call. It is currently in its infancy but we&#x27;ll be expanding it henceforth.</p>
+				<a id="fork-btn" href="https://github.com/tangentsnowball/Snowcone" title="Fork the Snowcone repo">Fork it here</a>
+			<section>
+				<h1>Support</h1>
+				<p>It's early days yet, but currently Snowcone works on all browsers except IE6-7 (due to the fact they dont support <code>:before</code>). To make these browsers happy, a jQuery fix has been included.</p>
+			</section>	
+			<section>
+				<h1>Implementation</h1>
+				<ol>
+					<li><a href="https://github.com/tangentsnowball/Snowcone/downloads" title="Download Snowcone">Download the files</a></li>
+					<li>Add the /fonts/ directory to your site's root</li>
+					<li>Include script (if IE6&ndash;7 support is needed) and css dependancies as shown on the <a href="demo/index.html" title="See the barebones demo">barebones demo.</a></li>
+					<li>Included in snowcone.css are a set of classes that call each icon. To include an icon in your page, attach one of these classes, and the base icon class to any element (as shown below).</li>	
+				</ol>
+				<div id="implementation_example">
+					<h2>An example</h2>
+					<p class="app-ico ico_email">Contact me</p>
+					<p><code>&lt;p class="app-ico ico_email"&gt;Contact me&lt;/p&gt;</code></p>	
+				</div>	
+			</section>	
+			<section>  
+				<h1>Meet the family (small right now but more are arriving)</h1>            
+				<ul id="icons">
+					<li class="app-ico ico_tick">Tick</li>
+					<li class="app-ico ico_cross">Cross</li>
+					<li class="app-ico ico_alert">Alert</li>
+					<li class="app-ico ico_expand">Expand</li>
+					<li class="app-ico ico_contract">Contract</li>
+					<li class="app-ico ico_home">Home</li>
+					<li class="app-ico ico_view">View</li>
+					<li class="app-ico ico_sync">Sync</li>  
+					<li class="app-ico ico_outline_down">Down</li>  
+					<li class="app-ico ico_outline_up">Up</li>  
+					<li class="app-ico ico_outline_right">Right</li>  
+					<li class="app-ico ico_outline_left">Left</li>  
+					<li class="app-ico ico_stop">Stop</li>  
+					<li class="app-ico ico_mapmarker">Map marker</li>  
+					<li class="app-ico ico_favourite">Favourite</li>  
+					<li class="app-ico ico_profile">Profile</li>  
+					<li class="app-ico ico_magnify">Magnify</li>  
+					<li class="app-ico ico_comment">Comment</li>  
+					<li class="app-ico ico_settings">Settings</li>  
+					<li class="app-ico ico_edit">Edit</li>  
+					<li class="app-ico ico_email">Email</li>  
+					<li class="app-ico ico_shop_bag">Shopping bag</li>  
+					<li class="app-ico ico_logout">Logout</li>  
+					<li class="app-ico ico_heart">Love this</li>  
+					<li class="app-ico ico_rss">RSS</li>  
+					<li class="app-ico ico_link">Link</li>  
+					<li class="app-ico ico_fill_down">Down filled</li>  
+					<li class="app-ico ico_fill_up">Up filled</li>  
+					<li class="app-ico ico_fill_right">Right filled</li>  
+					<li class="app-ico ico_fill_left">Left filled</li>  
+					<li class="app-ico ico_facebook">Facebook</li>  
+					<li class="app-ico ico_twitter">Twitter</li>  
+					<li class="app-ico ico_googleplus">Google+</li>  
+					<li class="app-ico ico_blacklist">Blacklist</li>  
+					<li class="app-ico ico_tag">Tag</li>  
+					<li class="app-ico ico_speedo">Speedo (by <a href="http://www.twitter.com/nathanstaines" title="Follow Nathan on twitter">Natho</a>)</li>
+					<li class="app-ico ico_tangentsnowball">Tangent logo</li>  
+				</ul> 
+			</section>   
+			<section>  
+				<h1>In practice</h1>
+				<section id="example-vcard">
+					<hgroup>
+						<h1 class="app-ico ico_tangentsnowball">Jack Armley</h1>
+						<h2>Front&ndash;end designer at Tangent Snowball</h2>     
+					</hgroup>
+					<ul>
+						<li class="app-ico ico_email"><a href="mailto:aloha@jackarmley.com" title="Email Jack">aloha@jackarmley.com</a></li>
+						<li class="app-ico ico_twitter"><a href="http://www.twitter.com/jackarmley" title="Tweet Jack">@jackarmley</a></li>
+						<li class="app-ico ico_facebook"><a href="" title="Email Jack">Jack Armley</a></li>
+						<li class="app-ico ico_googleplus"><a href="" title="Email Jack">Plus me</a></li>
+						<li class="app-ico ico_link"><a href="" title="Email Jack">Visit my website</a></li>
+					</ul>
+				</section>
+			</section>
+		</div>
+	</body>
+</html>
