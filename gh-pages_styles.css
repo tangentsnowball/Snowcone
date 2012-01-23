@@ -91,7 +91,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			a img{border:none;}
 	/*--[=2c:Images]--*/
 		/*Standalone*/
-			img{margin:0 0 1em 0;padding:0.14em 0 0 0;}
+			img{margin:0 0 1em 0;padding:0.14em 0 0 0;max-width:100%;}
 		/*Within a figure tag*/
 			figure{margin:0 0 2.08em 0;}
 				figure img{margin:0 0 0.41em 0;}
