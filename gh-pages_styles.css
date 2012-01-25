@@ -150,7 +150,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		section{padding:1em 0 5em 0;border-top:1px dotted #666;}
 		 section h1:first-child{font-size:1.5em;margin:0 0 1.5em 0;padding:0.5em 0 1em 0;border-bottom:1px dotted #666;color:#E90E8C;text-shadow:0 1px 0 #fff;text-align:center;}
 		 .eg-img{box-shadow:0 0 1px #ccc;margin:1em 0;}
-		#implementation_example{border:1px dotted #666;border-radius:30px;padding:1em 20px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background:#fff;}
+		#implementation_example{border:1px solid #ccc;border-radius:5px;padding:1em 20px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background:#fff;}
 		 	#implementation_example h2{margin-top:0;color:#E90E8C;}
 		#icons{list-style:none;padding:0;margin:0;-moz-column-count:2;-webkit-column-count:2;column-count:2;}  
 			#icons li{font-size:1.3em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
