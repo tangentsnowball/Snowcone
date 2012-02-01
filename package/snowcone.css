@@ -45,9 +45,9 @@ Created: 01.06.2012 (US format date)
 		.app-ico.ico_edit:before{content:"T";}
 		.app-ico.ico_email:before{content:"U";}
 		.app-ico.ico_shop_bag:before{content:"V";}
-		.app-ico.ico_logout:before{content:"W";} 
-		.app-ico.ico_mobile:before{content:"Y";} 
+		.app-ico.ico_logout:before{content:"W";}
 		.app-ico.ico_heart:before{content:"X";} 
+		.app-ico.ico_mobile:before{content:"Y";} 
 		.app-ico.ico_rss:before{content:"Z";} 
 		.app-ico.ico_link:before{content:"a";} 
 		.app-ico.ico_fill_down:before{content:"b";} 
@@ -58,8 +58,6 @@ Created: 01.06.2012 (US format date)
 		.app-ico.ico_twitter:before{content:"g";} 
 		.app-ico.ico_googleplus:before{content:"h";} 
 		.app-ico.ico_blacklist:before{content:"i";} 
-		.app-ico.ico_twitter_bird:before{content:"t";} 
-		.app-ico.ico_twitter_plain:before{content:"u";} 
 		.app-ico.ico_tag:before{content:"t";} 
 		.app-ico.ico_speedo:before{content:"y";}  
 		.app-ico.ico_tangentsnowball:before{content:"z";}  		
