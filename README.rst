@@ -1,7 +1,8 @@
 Snowcone  
 ========
+::
 
-A scalable, semantic @fontface loving icon set.
+	A scalable, semantic @fontface loving icon set.
 
 
 Icons to do
