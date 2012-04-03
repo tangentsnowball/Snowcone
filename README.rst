@@ -27,5 +27,6 @@ Icons to improve
 Wishlist
 ---------
 
-encoding each glyph in the PUA (Private Use Area) of the font set:
+We need to change all glyphs to use PUA (private use area) characters:
+
 http://www.quora.com/How-do-I-map-to-Unicode-characters-within-the-PUA-private-use-area-of-a-font-set-using-the-glyphs-app      
