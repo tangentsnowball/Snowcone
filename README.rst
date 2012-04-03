@@ -5,9 +5,8 @@ A scalable, semantic @fontface loving icon set, made by Tangent Snowball.
 
 ----------
 
------------------ 
 Adding a new icon
------------------ 
+*****************
 
 **Please note: These instructions have initially been made for our team but give it a go repo cloners and feel free to give feedback on their clarity!**
 
@@ -50,9 +49,8 @@ Step 3: Export your glyphs file as a font, then generate a webfont from it
 
 ----------
 
---------   
 Wishlist
---------
+***********
 
 Icons to do
 ***********
