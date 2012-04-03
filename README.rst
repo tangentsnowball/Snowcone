@@ -46,7 +46,7 @@ Step 3: Export your glyphs file as a font, then generate a webfont from it
 - Once it has uploaded, click *Download your kit*
 - Move these downloaded files to the */package/* directory (these will override the existing ones). 
 
----------   
+--------   
 Wishlist
 --------
 
