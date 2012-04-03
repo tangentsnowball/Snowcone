@@ -34,7 +34,16 @@ Step 2: Add your new glyph to the .glyphs file
 - If Glyphs asks you to *Correct Bounds* do so. It means it will paste it within the glyph area and not way out there on the pasteboard.
 
 Step 3: Export your glyphs file as a font, then generate a webfont from it
-*********************** 
+***********************                     
+
+- **Optional:** If you want to state the webfont has a new version number, you can edit this in *File > Font Info.*
+- From Glyph's top menu, select *File > Export*.
+- Export it to the */src/* folder (to override Snowcone-Regular.otf).
+- Visit http://www.fontsquirrel.com/fontface/generator 
+- Within the generator's options, choose *Optimal* (this should be the default), and check the *Agreement* checkbox.
+- Click * Add Fonts * and browse to the font you just exported.
+- Once it has uploaded, click *Download your kit*
+- Move these downloaded files to the */package/* directory (these will override the existing ones). 
    
 Wishlist
 --------
