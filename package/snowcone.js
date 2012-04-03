@@ -3,56 +3,57 @@
 function addicons(){
 	//Create object with list of icons
 		var icons = {
-			ico_alert:"A",
-			ico_cross:"B",
-			ico_tick:"C",
-			ico_expand:"D",
-			ico_contract:"E",
-			ico_view:"F",
-			ico_sync:"G",
-			ico_home:"H",
-			ico_outline_down:"I",
-			ico_outline_up:"J",
-			ico_outline_right:"K",
-			ico_outline_left:"L",
-			ico_stop:"M",
-			ico_mapmarker:"N",
-			ico_favourite:"O",
-			ico_profile:"P",
-			ico_magnify:"Q",
-			ico_comment:"R",
-			ico_settings:"S",
-			ico_edit:"T",
-			ico_email:"U",
-			ico_shop_bag:"V",
-			ico_logout:"W",
-			ico_heart:"X", 
-			ico_mobile:"Y", 
-			ico_rss:"Z", 
-			ico_link:"a", 
-			ico_fill_down:"b", 
-			ico_fill_up:"c", 
-			ico_fill_right:"d", 
-			ico_fill_left:"e", 
-			ico_facebook:"f", 
-			ico_twitter:"g", 
-			ico_googleplus:"h", 
-			ico_blacklist:"i", 
-			ico_tag:"t", 
-			ico_speedo:"y",  
-			ico_tangentsnowball:"z" 		
+			"sc-alert":"A",
+			"sc-cross":"B",
+			"sc-tick":"C",
+			"sc-expand":"D",
+			"sc-contract":"E",
+			"sc-view":"F",
+			"sc-sync":"G",
+			"sc-home":"H",
+			"sc-outline_down":"I",
+			"sc-outline_up":"J",
+			"sc-outline_right":"K",
+			"sc-outline_left":"L",
+			"sc-stop":"M",
+			"sc-mapmarker":"N",
+			"sc-favourite":"O",
+			"sc-profile":"P",
+			"sc-magnify":"Q",
+			"sc-comment":"R",
+			"sc-settings":"S",
+			"sc-edit":"T",
+			"sc-email":"U",
+			"sc-shop_bag":"V",
+			"sc-logout":"W",
+			"sc-heart":"X",
+			"sc-mobile":"Y",
+			"sc-rss":"Z",
+			"sc-link":"a",
+			"sc-fill_down":"b",
+			"sc-fill_up":"c",
+			"sc-fill_right":"d",
+			"sc-fill_left":"e",
+			"sc-facebook":"f",
+			"sc-twitter":"g",
+			"sc-googleplus":"h",
+			"sc-blacklist":"i",
+			"sc-tag":"t",
+			"sc-speedo":"y",
+			"sc-tangentsnowball":"z"
 		};
-	//Detect IE version	
-		var browserver = parseInt($.browser.version, 10)
+	//Detect IE version
+		var browserver = parseInt($.browser.version, 10);
 	
-	//Run icon insertion	
+	//Run icon insertion
 		if ($.browser.msie && browserver == 6 || browserver == 7){
-			$(".app-ico").each(function(){
-				var icon = $(this).attr("class").split(/\s/);
+			$(".snowcone").each(function(){
+				var $this = $(this);
+				var icon = $this.attr("class").split(/\s/);
 				for(key in icons){
 					if([key]==icon[1]){
-						$(this).prepend("<span class='app-legacy_ico'>" + icons[key] + "</span>");
-					};
+						$this.prepend("<span class='snowcone-legacy'>" + icons[key] + "</span>");
+					}
 				}
 			});
 		}

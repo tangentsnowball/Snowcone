@@ -1,8 +1,9 @@
 /*================
 Screen styles for the Snowcone icon webfont
-Version 1.0
+Version 2.0
 Author: Tangent Snowball FED team
-Created: 01.06.2012 (US format date)
+Created: 06.01.2012 
+Modified: 03.04.2012
 ==================*/ 
 
 /*========
@@ -22,50 +23,50 @@ Created: 01.06.2012 (US format date)
 /*========
 [=2:Set classes to trigger icons]
 ======== */ 
-	.app-ico:before{font-family:'SnowconeRegular';} 
-		.app-ico.ico_alert:before{content:"A";}
-	    .app-ico.ico_cross:before{content:"B";}
-		.app-ico.ico_tick:before{content:"C";}
-		.app-ico.ico_expand:before{content:"D";}
-		.app-ico.ico_contract:before{content:"E";}
-		.app-ico.ico_view:before{content:"F";}
-		.app-ico.ico_sync:before{content:"G";}
-		.app-ico.ico_home:before{content:"H";}
-		.app-ico.ico_outline_down:before{content:"I";}
-		.app-ico.ico_outline_up:before{content:"J";}
-		.app-ico.ico_outline_right:before{content:"K";}
-		.app-ico.ico_outline_left:before{content:"L";}
-		.app-ico.ico_stop:before{content:"M";}
-		.app-ico.ico_mapmarker:before{content:"N";}
-		.app-ico.ico_favourite:before{content:"O";}
-		.app-ico.ico_profile:before{content:"P";}
-		.app-ico.ico_magnify:before{content:"Q";}
-		.app-ico.ico_comment:before{content:"R";}
-		.app-ico.ico_settings:before{content:"S";}
-		.app-ico.ico_edit:before{content:"T";}
-		.app-ico.ico_email:before{content:"U";}
-		.app-ico.ico_shop_bag:before{content:"V";}
-		.app-ico.ico_logout:before{content:"W";}
-		.app-ico.ico_heart:before{content:"X";} 
-		.app-ico.ico_mobile:before{content:"Y";} 
-		.app-ico.ico_rss:before{content:"Z";} 
-		.app-ico.ico_link:before{content:"a";} 
-		.app-ico.ico_fill_down:before{content:"b";} 
-		.app-ico.ico_fill_up:before{content:"c";} 
-		.app-ico.ico_fill_right:before{content:"d";} 
-		.app-ico.ico_fill_left:before{content:"e";} 
-		.app-ico.ico_facebook:before{content:"f";} 
-		.app-ico.ico_twitter:before{content:"g";} 
-		.app-ico.ico_googleplus:before{content:"h";} 
-		.app-ico.ico_blacklist:before{content:"i";} 
-		.app-ico.ico_tag:before{content:"t";} 
-		.app-ico.ico_speedo:before{content:"y";}  
-		.app-ico.ico_tangentsnowball:before{content:"z";}  		
+	.snowcone:before{font-family:'SnowconeRegular';} 
+		.sc-alert:before{content:"A";}
+	    .sc-cross:before{content:"B";}
+		.sc-tick:before{content:"C";}
+		.sc-expand:before{content:"D";}
+		.sc-contract:before{content:"E";}
+		.sc-view:before{content:"F";}
+		.sc-sync:before{content:"G";}
+		.sc-home:before{content:"H";}
+		.sc-outline_down:before{content:"I";}
+		.sc-outline_up:before{content:"J";}
+		.sc-outline_right:before{content:"K";}
+		.sc-outline_left:before{content:"L";}
+		.sc-stop:before{content:"M";}
+		.sc-mapmarker:before{content:"N";}
+		.sc-favourite:before{content:"O";}
+		.sc-profile:before{content:"P";}
+		.sc-magnify:before{content:"Q";}
+		.sc-comment:before{content:"R";}
+		.sc-settings:before{content:"S";}
+		.sc-edit:before{content:"T";}
+		.sc-email:before{content:"U";}
+		.sc-shop_bag:before{content:"V";}
+		.sc-logout:before{content:"W";}
+		.sc-heart:before{content:"X";} 
+		.sc-mobile:before{content:"Y";} 
+		.sc-rss:before{content:"Z";} 
+		.sc-link:before{content:"a";} 
+		.sc-fill_down:before{content:"b";} 
+		.sc-fill_up:before{content:"c";} 
+		.sc-fill_right:before{content:"d";} 
+		.sc-fill_left:before{content:"e";} 
+		.sc-facebook:before{content:"f";} 
+		.sc-twitter:before{content:"g";} 
+		.sc-googleplus:before{content:"h";} 
+		.sc-blacklist:before{content:"i";} 
+		.sc-tag:before{content:"t";} 
+		.sc-speedo:before{content:"y";}  
+		.sc-tangentsnowball:before{content:"z";}  		
 
 /*========
 [=3:Ensure legacy browsers still see icons]
 ======== */ 		
-	.app-legacy_ico{font-family:'SnowconeRegular';}
+	.snowcone-legacy{font-family:'SnowconeRegular';}
 
 	
 

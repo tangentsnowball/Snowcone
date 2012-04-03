@@ -45,7 +45,17 @@ Step 3: Export your glyphs file as a font, then generate a webfont from it
 5. Within the generator's options, choose *Optimal* (this should be the default), and check the *Agreement* checkbox.
 6. Click * Add Fonts * and browse to the font you just exported.
 7. Once it has uploaded, click *Download your kit*
-8. Move these downloaded files to the */package/* directory (these will override the existing ones). 
+8. Unzip these downloaded files and move them to the */package/* directory (these will override the existing ones).  
+
+Step 4: Add your new glyph(s) to Snowcone's CSS/JS files
+***********************                                 
+
+1. Open *package/snowcone.css*.
+2. Add a new line to the set of rules titled **[=2:Set classes to trigger icons]**.
+3. For this line, give your glyph a style name and add the character it is attached to, to the *content* declaration.     
+4. Update *snowcone.js* to account for this change.
+
+**You're all good to go now! For instructions on using snowcone on a page, check the homepage: http://tangentsnowball.github.com/Snowcone/index.html**
 
 ----------
 
