@@ -1,28 +1,28 @@
 Snowcone  
 ========
 
-A scalable, semantic @fontface loving icon set.
+	A scalable, semantic @fontface loving icon set.
 
 
 Icons to do
 -----------
 
-	external link
-	document types (music, movie etc...)
-	calendar
-	add profile icon
-	printer
-	zoom in
-	map
-	lighnening bolt
-	info tooltip
-	download
-	upload
+-external link
+-document types (music, movie etc...)
+-calendar
+-add profile icon
+-printer
+-zoom in
+-map
+-lighnening bolt
+-info tooltip
+-download
+-upload 
 
 Icons to improve
 ----------
 
-	Link icon 
+-Link icon 
 
 Wishlist
 ---------
