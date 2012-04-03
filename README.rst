@@ -3,6 +3,7 @@ Snowcone
 
 A scalable, semantic @fontface loving icon set, made by Tangent Snowball.
 
+----------------- 
 Adding a new icon
 ----------------- 
 
@@ -44,7 +45,8 @@ Step 3: Export your glyphs file as a font, then generate a webfont from it
 - Click * Add Fonts * and browse to the font you just exported.
 - Once it has uploaded, click *Download your kit*
 - Move these downloaded files to the */package/* directory (these will override the existing ones). 
-   
+
+---------   
 Wishlist
 --------
 
