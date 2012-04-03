@@ -12,8 +12,8 @@ You'll need
 ***********
 
 - A copy of *Glyphs/Glyphs lite* (or Fontforge if you're hardcore, but we'll assume you've got Glyphs).
-- **Adobe Illustrator** or a similar vector-based application (instructions assume you have Illustrator).
-- Font-squirrel's online **webfont generator** - http://www.fontsquirrel.com/fontface/generator
+- *Adobe Illustrator* or a similar vector-based application (instructions assume you have Illustrator).
+- Font-squirrel's online *webfont generator* - http://www.fontsquirrel.com/fontface/generator
 
 Step 1: Create your icon as a vector path
 *******************************
