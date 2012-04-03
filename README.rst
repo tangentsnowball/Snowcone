@@ -1,4 +1,5 @@
-<h1>Snowcone</h1>
+Snowcone  
+========
 
 Scalable, semantic @fontface loving icon set for the world of today
 
