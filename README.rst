@@ -1,3 +1,5 @@
+<h1>Snowcone</h1>
+
 Scalable, semantic @fontface loving icon set for the world of today
 
 This font set has been designed (with love) by the Tangent Snowball team to be an easily adjustable set of icons for use on projects where icons are required. Using a font set ensures all icons are fully scalable and only need one header call. It is currently in its infancy but we'll be expanding it henceforth. 
@@ -15,7 +17,6 @@ lighnening bolt
 info tooltip
 download
 upload
-blacklist
 
 To improve:
 
