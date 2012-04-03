@@ -1,7 +1,7 @@
 Snowcone  
 ========
 
-	A scalable, semantic @fontface loving icon set.
+A scalable, semantic @fontface loving icon set.
 
 
 Icons to do
@@ -27,5 +27,5 @@ Icons to improve
 Wishlist
 ---------
 
-	encoding each glyph in the PUA (Private Use Area) of the font set:
-	http://www.quora.com/How-do-I-map-to-Unicode-characters-within-the-PUA-private-use-area-of-a-font-set-using-the-glyphs-app      
+encoding each glyph in the PUA (Private Use Area) of the font set:
+http://www.quora.com/How-do-I-map-to-Unicode-characters-within-the-PUA-private-use-area-of-a-font-set-using-the-glyphs-app      
