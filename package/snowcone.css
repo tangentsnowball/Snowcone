@@ -24,131 +24,46 @@ Modified: 03.04.2012
 [=2:Set classes to trigger icons]
 ======== */ 
 	.snowcone:before{font-family:'SnowconeRegular';} 
-		.sc-alert:before{content:"A";}
-	    .sc-cross:before{content:"B";}
-		.sc-tick:before{content:"C";}
-		.sc-expand:before{content:"D";}
-		.sc-contract:before{content:"E";}
-		.sc-view:before{content:"F";}
-		.sc-sync:before{content:"G";}
-		.sc-home:before{content:"H";}
-		.sc-outline_down:before{content:"I";}
-		.sc-outline_up:before{content:"J";}
-		.sc-outline_right:before{content:"K";}
-		.sc-outline_left:before{content:"L";}
-		.sc-stop:before{content:"M";}
-		.sc-mapmarker:before{content:"N";}
-		.sc-favourite:before{content:"O";}
-		.sc-profile:before{content:"P";}
-		.sc-magnify:before{content:"Q";}
-		.sc-comment:before{content:"R";}
-		.sc-settings:before{content:"S";}
-		.sc-edit:before{content:"T";}
-		.sc-email:before{content:"U";}
-		.sc-shop_bag:before{content:"V";}
-		.sc-logout:before{content:"W";}
-		.sc-heart:before{content:"X";} 
-		.sc-mobile:before{content:"Y";} 
-		.sc-rss:before{content:"Z";} 
-		.sc-link:before{content:"a";} 
-		.sc-fill_down:before{content:"b";} 
-		.sc-fill_up:before{content:"c";} 
-		.sc-fill_right:before{content:"d";} 
-		.sc-fill_left:before{content:"e";} 
-		.sc-facebook:before{content:"f";} 
-		.sc-twitter:before{content:"g";} 
-		.sc-googleplus:before{content:"h";} 
-		.sc-blacklist:before{content:"i";} 
-		.sc-tag:before{content:"t";} 
-		.sc-speedo:before{content:"y";}  
-		.sc-tangentsnowball:before{content:"z";} 
+		.sc-alert:before{content:"\f000";}
+	    .sc-cross:before{content:"\f001";}
+		.sc-tick:before{content:"\f002";}
+		.sc-expand:before{content:"\f003";}
+		.sc-contract:before{content:"\f004";}
+		.sc-view:before{content:"\f005";}
+		.sc-sync:before{content:"\f006";}
+		.sc-home:before{content:"\f007";}
+		.sc-outline_down:before{content:"\f008";}
+		.sc-outline_up:before{content:"\f009";}
+		.sc-outline_right:before{content:"\f00a";}
+		.sc-outline_left:before{content:"\f00b";}
+		.sc-stop:before{content:"\f00c";}
+		.sc-mapmarker:before{content:"\f00d";}
+		.sc-favourite:before{content:"\f00e";}
+		.sc-profile:before{content:"\f010";}
+		.sc-magnify:before{content:"\f011";}
+		.sc-comment:before{content:"\f012";}
+		.sc-settings:before{content:"\f013";}
+		.sc-edit:before{content:"\f014";}
+		.sc-email:before{content:"\f015";}
+		.sc-shop_bag:before{content:"\f016";}
+		.sc-logout:before{content:"\f017";}
+		.sc-heart:before{content:"\f018";} 
+		.sc-mobile:before{content:"\f019";} 
+		.sc-rss:before{content:"\f01a";} 
+		.sc-link:before{content:"\f01b";} 
+		.sc-fill_down:before{content:"\f01c";} 
+		.sc-fill_up:before{content:"\f01d";} 
+		.sc-fill_right:before{content:"\f01e";}
+		/* \f020 is not a valid unicode character. all shifted one down (thanks fontawesome!) */ 
+		.sc-fill_left:before{content:"\f021";} 
+		.sc-facebook:before{content:"\f022";} 
+		.sc-twitter:before{content:"\f023";} 
+		.sc-googleplus:before{content:"\f024";} 
+		.sc-blacklist:before{content:"\f025";} 
+		.sc-tag:before{content:"\f026";} 
+		.sc-speedo:before{content:"\f027";}  
+		.sc-tangentsnowball:before{content:"\f028";} 
 		
-	/*Ensure text-transform properties don't affect the Snowcone icon*/   
-		.sc-alert:before,
-	    .sc-cross:before,
-		.sc-tick:before,
-		.sc-expand:before,
-		.sc-contract:before,
-		.sc-view:before,
-		.sc-sync:before,
-		.sc-home:before,
-		.sc-outline_down:before,
-		.sc-outline_up:before,
-		.sc-outline_right:before,
-		.sc-outline_left:before,
-		.sc-stop:before,
-		.sc-mapmarker:before,
-		.sc-favourite:before,
-		.sc-profile:before,
-		.sc-magnify:before,
-		.sc-comment:before,
-		.sc-settings:before,
-		.sc-edit:before,
-		.sc-email:before,
-		.sc-shop_bag:before,
-		.sc-logout:before,
-		.sc-heart:before,} 
-		.sc-mobile:before,
-		.sc-rss:before{
-			text-transform:uppercase;
-		}
-		.sc-fill_down:before, 
-		.sc-fill_up:before,
-		.sc-fill_right:before,
-		.sc-fill_left:before,
-		.sc-facebook:before,
-		.sc-twitter:before, 
-		.sc-googleplus:before, 
-		.sc-blacklist:before,
-		.sc-tag:before,
-		.sc-speedo:before,
-		.sc-tangentsnowball:before{
-			text-transform:lowercase;
-		}       
-		
-	/*And again, for legacy browsers*/	  
-		.sc-alert .snowcone-legacy,
-		.sc-cross .snowcone-legacy,
-		.sc-tick .snowcone-legacy,
-		.sc-expand .snowcone-legacy,
-		.sc-contract .snowcone-legacy,
-		.sc-view .snowcone-legacy,
-		.sc-sync .snowcone-legacy,
-		.sc-home .snowcone-legacy,
-		.sc-outline_down .snowcone-legacy,
-		.sc-outline_up .snowcone-legacy,
-		.sc-outline_right .snowcone-legacy,
-		.sc-outline_left .snowcone-legacy,
-		.sc-stop .snowcone-legacy,
-		.sc-mapmarker .snowcone-legacy,
-		.sc-favourite .snowcone-legacy,
-		.sc-profile .snowcone-legacy,
-		.sc-magnify .snowcone-legacy,
-		.sc-comment .snowcone-legacy,
-		.sc-settings .snowcone-legacy,
-		.sc-edit .snowcone-legacy,
-		.sc-email .snowcone-legacy,
-		.sc-shop_bag .snowcone-legacy,
-		.sc-logout .snowcone-legacy,
-		.sc-heart .snowcone-legacy,} 
-		.sc-mobile .snowcone-legacy,
-		.sc-rss .snowcone-legacy{
-			text-transform:uppercase;
-		}
-		.sc-fill_down .snowcone-legacy, 
-		.sc-fill_up .snowcone-legacy,
-		.sc-fill_right .snowcone-legacy,
-		.sc-fill_left .snowcone-legacy,
-		.sc-facebook .snowcone-legacy,
-		.sc-twitter .snowcone-legacy, 
-		.sc-googleplus .snowcone-legacy, 
-		.sc-blacklist .snowcone-legacy,
-		.sc-tag .snowcone-legacy,
-		.sc-speedo .snowcone-legacy,
-		.sc-tangentsnowball .snowcone-legacy{
-			text-transform:lowercase;
-		} 
-
 /*========
 [=3:Ensure legacy browsers still see icons]
 ======== */ 		
