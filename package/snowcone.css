@@ -61,7 +61,93 @@ Modified: 03.04.2012
 		.sc-blacklist:before{content:"i";} 
 		.sc-tag:before{content:"t";} 
 		.sc-speedo:before{content:"y";}  
-		.sc-tangentsnowball:before{content:"z";}  		
+		.sc-tangentsnowball:before{content:"z";} 
+		
+	/*Ensure text-transform properties don't affect the Snowcone icon*/   
+		.sc-alert:before,
+	    .sc-cross:before,
+		.sc-tick:before,
+		.sc-expand:before,
+		.sc-contract:before,
+		.sc-view:before,
+		.sc-sync:before,
+		.sc-home:before,
+		.sc-outline_down:before,
+		.sc-outline_up:before,
+		.sc-outline_right:before,
+		.sc-outline_left:before,
+		.sc-stop:before,
+		.sc-mapmarker:before,
+		.sc-favourite:before,
+		.sc-profile:before,
+		.sc-magnify:before,
+		.sc-comment:before,
+		.sc-settings:before,
+		.sc-edit:before,
+		.sc-email:before,
+		.sc-shop_bag:before,
+		.sc-logout:before,
+		.sc-heart:before,} 
+		.sc-mobile:before,
+		.sc-rss:before{
+			text-transform:uppercase;
+		}
+		.sc-fill_down:before, 
+		.sc-fill_up:before,
+		.sc-fill_right:before,
+		.sc-fill_left:before,
+		.sc-facebook:before,
+		.sc-twitter:before, 
+		.sc-googleplus:before, 
+		.sc-blacklist:before,
+		.sc-tag:before,
+		.sc-speedo:before,
+		.sc-tangentsnowball:before{
+			text-transform:lowercase;
+		}       
+		
+	/*And again, for legacy browsers*/	  
+		.sc-alert .snowcone-legacy,
+		.sc-cross .snowcone-legacy,
+		.sc-tick .snowcone-legacy,
+		.sc-expand .snowcone-legacy,
+		.sc-contract .snowcone-legacy,
+		.sc-view .snowcone-legacy,
+		.sc-sync .snowcone-legacy,
+		.sc-home .snowcone-legacy,
+		.sc-outline_down .snowcone-legacy,
+		.sc-outline_up .snowcone-legacy,
+		.sc-outline_right .snowcone-legacy,
+		.sc-outline_left .snowcone-legacy,
+		.sc-stop .snowcone-legacy,
+		.sc-mapmarker .snowcone-legacy,
+		.sc-favourite .snowcone-legacy,
+		.sc-profile .snowcone-legacy,
+		.sc-magnify .snowcone-legacy,
+		.sc-comment .snowcone-legacy,
+		.sc-settings .snowcone-legacy,
+		.sc-edit .snowcone-legacy,
+		.sc-email .snowcone-legacy,
+		.sc-shop_bag .snowcone-legacy,
+		.sc-logout .snowcone-legacy,
+		.sc-heart .snowcone-legacy,} 
+		.sc-mobile .snowcone-legacy,
+		.sc-rss .snowcone-legacy{
+			text-transform:uppercase;
+		}
+		.sc-fill_down .snowcone-legacy, 
+		.sc-fill_up .snowcone-legacy,
+		.sc-fill_right .snowcone-legacy,
+		.sc-fill_left .snowcone-legacy,
+		.sc-facebook .snowcone-legacy,
+		.sc-twitter .snowcone-legacy, 
+		.sc-googleplus .snowcone-legacy, 
+		.sc-blacklist .snowcone-legacy,
+		.sc-tag .snowcone-legacy,
+		.sc-speedo .snowcone-legacy,
+		.sc-tangentsnowball .snowcone-legacy{
+			text-transform:lowercase;
+		} 
 
 /*========
 [=3:Ensure legacy browsers still see icons]
