@@ -4,10 +4,10 @@ Snowcone
 A scalable, semantic @fontface loving icon set.
    
 Wishlist
---
+--------
 
 Icons to do
-`````````````
+***********
 
 - external link
 - document types (music, movie etc...)
@@ -22,12 +22,12 @@ Icons to do
 - upload 
 
 Icons to improve
-`````````````
+***********
 
 - Link icon 
 
 Outstanding queries
-`````````````
+***********
 
 We need to change all glyphs to use PUA (private use area) characters:
 
