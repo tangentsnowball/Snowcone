@@ -1,7 +1,9 @@
-Snowcone  
+Snowcone v2  
 ========
 
-A scalable, semantic @fontface loving icon set, made by Tangent Snowball.  
+A scalable, semantic @fontface loving icon set, made by Tangent Snowball. 
+
+**NEW:** Snowcone now uses PUA (Private Use Area) glyphs so no accessibility or text-transform worries (these come from using regular letters).
 
 ----------
 
@@ -42,10 +44,11 @@ Step 3: Export your glyphs file as a font, then generate a webfont from it
 2. From Glyph's top menu, select *File > Export*.
 3. Export it to the */src/* folder (to override Snowcone-Regular.otf).
 4. Visit http://www.fontsquirrel.com/fontface/generator 
-5. Within the generator's options, choose *Optimal* (this should be the default), and check the *Agreement* checkbox.
-6. Click * Add Fonts * and browse to the font you just exported.
-7. Once it has uploaded, click *Download your kit*
-8. Unzip these downloaded files and move them to the */package/* directory (these will override the existing ones).  
+5. Upload the config file to fontsquirrel to get the right settings (*/src/generator_config.txt*)
+6. Upload the source font file (*/src/Snowcone-Regular.otf*)
+7. Click * Add Fonts * and browse to the font you just exported.
+8. Once it has uploaded, click *Download your kit*
+9. Unzip these downloaded files and move them to the */package/* directory (these will override the existing ones).  
 
 Step 4: Add your new glyph(s) to Snowcone's CSS/JS files
 ***********************                                 
@@ -81,10 +84,3 @@ Icons to improve
 ***********
 
 - Link icon 
-
-Outstanding queries
-***********
-
-We need to change all glyphs to use PUA (private use area) characters:
-
-http://www.quora.com/How-do-I-map-to-Unicode-characters-within-the-PUA-private-use-area-of-a-font-set-using-the-glyphs-app      
