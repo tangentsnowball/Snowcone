@@ -153,7 +153,9 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		
 		 .eg-img{box-shadow:0 0 1px #ccc;margin:1em 0;}
 		#icons{list-style:none;padding:0;margin:0;-moz-column-count:2;-webkit-column-count:2;column-count:2;}  
-			#icons li{font-size:1.3em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
+			#icons li{font-size:1.3em;margin:0;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);color:#999;}  
+			#icons li:hover{color:#333;cursor:pointer;}  
+			#icons li:before{color:#111;}  
 /*========
 [=6:Media queries]
 ======== */	
