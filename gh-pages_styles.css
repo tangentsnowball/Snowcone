@@ -143,7 +143,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 	header{text-align:center;border-bottom:4px solid #E90E8C;padding:1.5em 0;margin:0 0 2em 0;line-height:1.3em;}
 		header h1{font-size:4em;color:#E90E8C;margin:0 0 0.05em 0;}  
 		header h2{font-size:1.5em;color:#E90E8C;margin:0;}  
-		header h1:before{font-family:"SnowconeRegular";content:"\f028";padding:0 0.15em 0 0;}        
+		header h1:before{font-family:"SnowconeRegular";content:"\f024";padding:0 0.15em 0 0;}        
 	#contents{padding:0 20px;width:40%;float:left;}	
 		#intro{font-size:1.2em;line-height:1.5em;margin:0 0 1.5em 0;}     
 		
