@@ -17,7 +17,6 @@ http://tangentsnowball.github.com/Snowcone/demo/index.html
 	
 2. Add the snowcone class stack to an element like so:
 
-::
 	<a class="snowcone sc-twitter">Join me on Twitter</a>
 	
 	The first class sets the font-family as snowcone, and the second class sets the icon. For a full list of icons you can use, check *package/snowcone.css*
