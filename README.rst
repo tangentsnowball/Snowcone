@@ -12,7 +12,7 @@ Adding Snowcone to a project
 
 1. Clone the Snowcone repo, or download all the files using the ZIP button towards the top of this page:
 
-	.. image:: gh-pages_img-downloadinstruction.png
+.. image:: gh-pages_img-downloadinstruction.png
 
 2. Add the the neccesary dependancies to your page, as shown in the barebones demo: 
 
