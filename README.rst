@@ -10,7 +10,7 @@ A scalable, semantic @fontface loving icon set, made by Tangent Snowball.
 Adding Snowcone to a project
 ======
 
-1. Add the the neccesary dependancies to your page, as shown in the barebones demo *(demo/index.html or http://tangentsnowball.github.com/Snowcone/demo/index.html )* 
+1. Add the the neccesary dependancies to your page, as shown in the barebones demo <http://tangentsnowball.github.com/Snowcone/demo/index.html> 
  
 	It's worth noting that you don't have to include the css file separately, or have the font files in a specific place. You can roll the css styles into your main stylesheet, and you can store the font files where you choose: just change the paths in the @font-face rule. 
 	
