@@ -54,9 +54,8 @@ Step 2: Add your new glyph to the .glyphs file
 
 1. Open *snowcone.glyphs* in glyphs app.
 2. Double-click an empty character to edit it.
-3. From the little toolbar at the bottom of the screen, change the glyph's width to *800* (as our icons are square).
-4. Paste in the glyph you created in Illustrator.   
-5. If Glyphs asks you to *Correct Bounds* do so. It means it will paste it within the glyph area and not way out there on the pasteboard.
+3. Paste in the glyph you created in Illustrator.   
+4. If Glyphs asks you to *Correct Bounds* do so. It means it will paste it within the glyph area and not way out there on the pasteboard.
 
 Step 3: Export your glyphs file as a font, then generate a webfont from it
 ***********************                     
