@@ -30,43 +30,60 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 	.snowcone:before{font-family:'SnowconeRegular';} 
 		.sc-alert:before{content:"\f000";}
 	    .sc-cross:before{content:"\f001";}
-		.sc-tick:before{content:"\f002";}
-		.sc-expand:before{content:"\f003";}
+		.sc-expand:before{content:"\f002";}
+		.sc-tick:before{content:"\f003";}
 		.sc-contract:before{content:"\f004";}
-		.sc-view:before{content:"\f005";}
-		.sc-sync:before{content:"\f006";}
-		.sc-home:before{content:"\f007";}
-		.sc-outline_down:before{content:"\f008";}
-		.sc-outline_up:before{content:"\f009";}
-		.sc-outline_right:before{content:"\f00a";}
-		.sc-outline_left:before{content:"\f00b";}
-		.sc-stop:before{content:"\f00c";}
-		.sc-mapmarker:before{content:"\f00d";}
-		.sc-favourite:before{content:"\f00e";}
-		.sc-profile:before{content:"\f010";}
-		.sc-magnify:before{content:"\f011";}
-		.sc-comment:before{content:"\f012";}
-		.sc-settings:before{content:"\f013";}
-		.sc-edit:before{content:"\f014";}
-		.sc-email:before{content:"\f015";}
-		.sc-shop_bag:before{content:"\f016";}
-		.sc-logout:before{content:"\f017";}
-		.sc-heart:before{content:"\f018";} 
-		.sc-mobile:before{content:"\f019";} 
-		.sc-rss:before{content:"\f01a";} 
-		.sc-link:before{content:"\f01b";} 
-		.sc-fill_down:before{content:"\f01c";} 
-		.sc-fill_up:before{content:"\f01d";} 
-		.sc-fill_right:before{content:"\f01e";}
+		.sc-outline_down:before{content:"\f005";}
+		.sc-outline_up:before{content:"\f006";}
+		.sc-outline_right:before{content:"\f007";}
+		.sc-outline_left:before{content:"\f008";}
+		.sc-fill_down:before{content:"\f009";}
+		.sc-fill_top:before{content:"\f00a";}
+		.sc-fill_right:before{content:"\f00b";}
+		.sc-fill_left:before{content:"\f00c";}
+		.sc-profile:before{content:"\f00d";}
+		.sc-search:before{content:"\f00e";}
+		.sc-comment:before{content:"\f010";}
+		.sc-settings:before{content:"\f011";}
+		.sc-edit:before{content:"\f012";}
+		.sc-email_closed:before{content:"\f013";}
+		.sc-email_open:before{content:"\f014";}
+		.sc-logout:before{content:"\f015";}
+		.sc-heart:before{content:"\f016";}
+		.sc-phone:before{content:"\f017";}
+		.sc-rss:before{content:"\f018";} 
+		.sc-link:before{content:"\f019";} 
+		.sc-stop:before{content:"\f01a";} 
+		.sc-mapmarker:before{content:"\f01b";} 
+		.sc-favourite:before{content:"\f01c";} 
+		.sc-fb_fill:before{content:"\f01d";} 
+		.sc-twitter_fill:before{content:"\f01e";}
 		/* \f020 is not a valid unicode character. all shifted one down (thanks fontawesome!) */ 
-		.sc-fill_left:before{content:"\f021";} 
-		.sc-facebook:before{content:"\f022";} 
-		.sc-twitter:before{content:"\f023";} 
-		.sc-googleplus:before{content:"\f024";} 
-		.sc-blacklist:before{content:"\f025";} 
-		.sc-tag:before{content:"\f026";} 
-		.sc-speedo:before{content:"\f027";}  
-		.sc-tangentsnowball:before{content:"\f028";} 
+		.sc-gplus_fill:before{content:"\f021";} 
+		.sc-profile_blacklist:before{content:"\f022";} 
+		.sc-tag:before{content:"\f023";} 
+		.sc-tangentsnowball:before{content:"\f024";} 
+		.sc-refresh:before{content:"\f025";} 
+		.sc-upload:before{content:"\f026";} 
+		.sc-download:before{content:"\f027";}  
+		.sc-bookmark:before{content:"\f028";} 
+		.sc-flag:before{content:"\f029";} 
+		.sc-doc_default:before{content:"\f02a";} 
+		.sc-info:before{content:"\f02b";} 
+		.sc-calendar:before{content:"\f02c";} 
+		.sc-print:before{content:"\f02d";} 
+		.sc-home:before{content:"\f02e";} 
+		.sc-view:before{content:"\f02f";} 
+		.sc-sync:before{content:"\f030";} 
+		.sc-hcard:before{content:"\f031";} 
+		.sc-shop_bag:before{content:"\f032";} 
+		.sc-pants:before{content:"\f033";} 
+		.sc-pants_granny:before{content:"\f034";} 
+		.sc-pants_bikini:before{content:"\f035";} 
+		.sc-pants_speedo:before{content:"\f036";} 
+		.sc-target:before{content:"\f037";} 
+		.sc-trash:before{content:"\f038";} 
+		.sc-notes:before{content:"\f039";} 
 		
 /*========
 [=3:Ensure legacy browsers still see icons]
