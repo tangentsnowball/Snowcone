@@ -85,12 +85,11 @@ Icons to do
 
 - external link
 - document types (music, movie etc...)
-- calendar
 - add profile icon
 - printer
 - zoom in
 - map
-- lighnening bolt
+- lightning bolt
 - info tooltip
 - download
 - upload 
