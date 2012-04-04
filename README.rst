@@ -44,11 +44,10 @@ Step 3: Export your glyphs file as a font, then generate a webfont from it
 2. From Glyph's top menu, select *File > Export*.
 3. Export it to the */src/* folder (to override Snowcone-Regular.otf).
 4. Visit http://www.fontsquirrel.com/fontface/generator 
-5. Upload the config file to fontsquirrel to get the right settings (*/src/generator_config.txt*)
-6. Upload the source font file (*/src/Snowcone-Regular.otf*)
-7. Click * Add Fonts * and browse to the font you just exported.
-8. Once it has uploaded, click *Download your kit*
-9. Unzip these downloaded files and move them to the */package/* directory (these will override the existing ones).  
+5. Click * Add Fonts * upload the config file (*/src/generator_config.txt*) to fontsquirrel to get the right settings. 
+6. Click * Add Fonts * and upload the source font file (*/src/Snowcone-Regular.otf*)
+7. Once it has uploaded, click *Download your kit*
+8. Unzip these downloaded files and move them to the */package/* directory (these will override the existing ones).  
 
 Step 4: Add your new glyph(s) to Snowcone's CSS/JS files
 ***********************                                 
