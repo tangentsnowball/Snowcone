@@ -36,7 +36,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		                           
 		/*-Set base rules for all typographic elements*/
 			/*Set base font-family/line-height and declare the px size of an em unit*/    
-				body{font:14px/1.45em sans-serif;color:#333;}
+				body{font:16px/1.45em sans-serif;color:#333;}
 			/*Block elements*/   
 				p{margin:0 0 0.82em 0;line-height:1.45em;}
 				hgroup{position:relative;}
@@ -139,28 +139,21 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 [=4:Global layout styles]
 ======== */
 	html{background:#fff;}
-	body{width:700px;margin:0 auto 0 auto;padding:0 0 3em 0;}
-	header{background:#E90E8C;color:#fff;text-align:center;text-shadow:0 1px 0 #6D0641;border-radius:0 0 20px 20px;box-shadow:0 1px 0 #999;padding:1.5em 0;margin:0 0 2em 0;line-height:1.3em;}
-		header h1{font-size:2em;color:#fff;margin:0 0 0.25em 0;}  
-		header h2{font-size:1.5em;color:#fff;margin:0;}  
+	body{width:90%;margin:0 auto 0 auto;padding:0 0 3em 0;}
+	header{text-align:center;border-bottom:4px solid #E90E8C;padding:1.5em 0;margin:0 0 2em 0;line-height:1.3em;}
+		header h1{font-size:4em;color:#E90E8C;margin:0 0 0.05em 0;}  
+		header h2{font-size:1.5em;color:#E90E8C;margin:0;}  
 		header h1:before{font-family:"SnowconeRegular";content:"\f028";padding:0 0.15em 0 0;}        
-	#contents{padding:0 20px;}	
-		#intro{color:#333;text-shadow:0 1px 0 #fff;font-size:1.2em;line-height:1.5em;margin:0 0 1em 0;} 
-		#fork-btn{background:#E90E8C;width:8em;font-size:2em;margin:0 auto 1em auto;color:#fff;display:block;padding:0.5em 1em;border-radius:20px;text-shadow:0 -1px 0 #6D0641;box-shadow:inset 0 0 4px rgba(1,1,1,.5),0 0 3px rgba(1,1,1,.9);border:10px solid #F2289C;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-align:center;} 
-		section{padding:1em 0 5em 0;border-top:1px dotted #666;}
-		 section h1:first-child{font-size:1.5em;margin:0 0 1.5em 0;padding:0.5em 0 1em 0;border-bottom:1px dotted #666;color:#E90E8C;text-shadow:0 1px 0 #fff;text-align:center;}
+	#contents{padding:0 20px;width:40%;float:left;}	
+		#intro{font-size:1.2em;line-height:1.5em;margin:0 0 1.5em 0;}     
+		
+		.well{background:#ccc;padding:2em;border-radius:0.5em;text-align:center;margin:2em 0;}
+			.well p{margin-bottom:0;}
+			#fork-btn{background:#E90E8C;width:8em;font-size:2em;margin:0 auto 0.5em auto;color:#fff;display:block;padding:0.5em 1em;border-radius:20px;text-shadow:0 -1px 0 #6D0641;box-shadow:inset 0 0 4px rgba(1,1,1,.5),0 0 3px rgba(1,1,1,.9);border:10px solid #F2289C;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-align:center;} 
+		
 		 .eg-img{box-shadow:0 0 1px #ccc;margin:1em 0;}
-		#implementation_example{border:1px solid #ccc;border-radius:5px;padding:1em 20px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background:#fff;}
-		 	#implementation_example h2{margin-top:0;color:#E90E8C;}
 		#icons{list-style:none;padding:0;margin:0;-moz-column-count:2;-webkit-column-count:2;column-count:2;}  
 			#icons li{font-size:1.3em;margin:0;text-shadow:0 1px 0 #fff;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);box-shadow:0 1px 0 #fff;}  
-       
-		#example-vcard{box-shadow:10px 10px 0 #F1ECF0,0 0 2px #F1ECF0;border:3px solid #D2CED1;border-radius:30px;padding:1em 20px;width:60%;margin:0 auto;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background:#fff;}
-			#example-vcard hgroup{margin:0 0 1em 0;padding:0 0 1em 0;border-bottom:1px dotted #ccc;}
-			#example-vcard h1{border:none;margin:0 0 0.25em 0;padding:0;}
-			#example-vcard h2{text-align:center;font-size:1em;margin:0;}
-			#example-vcard ul{list-style:none;padding:0;margin:0;}
-			#example-vcard ul .app-ico:before{font-size:2em;position:relative;bottom:-0.15em;left:0;}
 /*========
 [=6:Media queries]
 ======== */	
@@ -168,12 +161,14 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		@media only screen and (min-width:300px) and (max-width:767px) {   
 			body{width:90%;}
 				header h1{font-size:1.5em;margin:0;} 
-				header h2{font-size:1em;} 
+				header h2{font-size:1em;}
+				#contents{width:100%;float:none;padding:0;}
 				#intro{font-size:1.1em;margin:0 0 1em 0;}
 				#fork-btn{width:100%;font-size:1.2em;margin:0 0 2em 0;}
 				section{padding-bottom:2em;}
 				section h1:first-child{margin:0 0 1em 0;}
 				#icons{-moz-column-count:1;-webkit-column-count:1;column-count:1;}  
+					#icons li{text-align:center;}  
 				#example-vcard{width:100%;}
 
 		}
