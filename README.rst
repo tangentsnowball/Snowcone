@@ -10,9 +10,7 @@ A scalable, semantic @fontface loving icon set, made by Tangent Snowball.
 Adding Snowcone to a project
 ======
 
-1. Clone the Snowcone repo, or download all the files using the ZIP button towards the top of this page:
-
-.. image:: http://tangentsnowball.github.com/Snowcone/gh-pages_img-downloadinstruction.png
+1. Clone the Snowcone repo, or download all the files https://github.com/tangentsnowball/Snowcone/zipball/master
 
 2. Add the the neccesary dependancies to your page, as shown in the barebones demo: 
 
