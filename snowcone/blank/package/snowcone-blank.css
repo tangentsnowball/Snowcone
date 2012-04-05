@@ -1,0 +1,94 @@
+/*================
+Screen styles for the Snowcone icon webfont
+Flavour: Blank template
+Version 2.0
+Author: Tangent Snowball FED team
+Created: --
+Modified: --  
+
+==================*/ 
+
+/*========
+[=1:Set webfont stack for the icons]
+======== */
+	@font-face {
+	    font-family: 'Snowcone[Flavour]';
+	    src: url('snowcone-[flavour]-webfont.eot');
+	    src: url('snowcone-[flavour]-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('snowcone-[flavour]-webfont.woff') format('woff'),
+	         url('snowcone-[flavour]-webfont.ttf') format('truetype'),
+	         url('snowcone-[flavour]-webfont.svg#Snowcone[Flavour]') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}                           
+
+/*========
+[=2:Set classes to trigger icons]
+======== */ 
+	.snowcone:before{font-family:'Snowcone[Flavour]';} 
+		.sc-iconname:before{content:"\f000";}
+	    .sc-iconname:before{content:"\f001";}
+		.sc-iconname:before{content:"\f002";}
+		.sc-iconname:before{content:"\f003";}
+		.sc-iconname:before{content:"\f004";}
+		.sc-iconname:before{content:"\f005";}
+		.sc-iconname:before{content:"\f006";}
+		.sc-iconname:before{content:"\f007";}
+		.sc-iconname:before{content:"\f008";}
+		.sc-iconname:before{content:"\f009";}
+		.sc-iconname:before{content:"\f00a";}
+		.sc-iconname:before{content:"\f00b";}
+		.sc-iconname:before{content:"\f00c";}
+		.sc-iconname:before{content:"\f00d";}
+		.sc-iconname:before{content:"\f00e";}
+		.sc-iconname:before{content:"\f010";}
+		.sc-iconname:before{content:"\f011";}
+		.sc-iconname:before{content:"\f012";}
+		.sc-iconname:before{content:"\f013";}
+		.sc-iconname:before{content:"\f014";}
+		.sc-iconname:before{content:"\f015";}
+		.sc-iconname:before{content:"\f016";}
+		.sc-iconname:before{content:"\f017";}
+		.sc-iconname:before{content:"\f018";} 
+		.sc-iconname:before{content:"\f019";} 
+		.sc-iconname:before{content:"\f01a";} 
+		.sc-iconname:before{content:"\f01b";} 
+		.sc-iconname:before{content:"\f01c";} 
+		.sc-iconname:before{content:"\f01d";} 
+		.sc-iconname:before{content:"\f01e";}
+		/* \f020 is not a valid unicode character. all shifted one down (thanks fontawesome!) */ 
+		.sc-iconname:before{content:"\f021";} 
+		.sc-iconname:before{content:"\f022";} 
+		.sc-iconname:before{content:"\f023";} 
+		.sc-iconname:before{content:"\f024";} 
+		.sc-iconname:before{content:"\f025";} 
+		.sc-iconname:before{content:"\f026";} 
+		.sc-iconname:before{content:"\f027";}  
+		.sc-iconname:before{content:"\f028";} 
+		.sc-iconname:before{content:"\f029";} 
+		.sc-iconname:before{content:"\f02a";} 
+		.sc-iconname:before{content:"\f02b";} 
+		.sc-iconname:before{content:"\f02c";} 
+		.sc-iconname:before{content:"\f02d";} 
+		.sc-iconname:before{content:"\f02e";} 
+		.sc-iconname:before{content:"\f02f";} 
+		.sc-iconname:before{content:"\f030";} 
+		.sc-iconname:before{content:"\f031";} 
+		.sc-iconname:before{content:"\f032";} 
+		.sc-iconname:before{content:"\f033";} 
+		.sc-iconname:before{content:"\f034";} 
+		.sc-iconname:before{content:"\f035";} 
+		.sc-iconname:before{content:"\f036";} 
+		.sc-iconname:before{content:"\f037";} 
+		.sc-iconname:before{content:"\f038";} 
+		.sc-iconname:before{content:"\f039";} 
+		.sc-iconname:before{content:"\f03a";} 
+		
+/*========
+[=3:Ensure legacy browsers still see icons]
+======== */ 		
+	.snowcone-legacy{font-family:'Snowcone[Flavour]';}
+
+	
+
+
