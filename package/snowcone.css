@@ -14,12 +14,12 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 [=1:Set webfont stack for the icons]
 ======== */
 	@font-face {
-	    font-family: 'SnowconeRegular';
-	    src: url('snowcone-regular-webfont.eot');
-	    src: url('snowcone-regular-webfont.eot?#iefix') format('embedded-opentype'),
-	         url('snowcone-regular-webfont.woff') format('woff'),
-	         url('snowcone-regular-webfont.ttf') format('truetype'),
-	         url('snowcone-regular-webfont.svg#SnowconeRegular') format('svg');
+	    font-family: 'SnowconeVanilla';
+	    src: url('snowcone-vanilla-webfont.eot');
+	    src: url('snowcone-vanilla-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('snowcone-vanilla-webfont.woff') format('woff'),
+	         url('snowcone-vanilla-webfont.ttf') format('truetype'),
+	         url('snowcone-vanilla-webfont.svg#SnowconeVanilla') format('svg');
 	    font-weight: normal;
 	    font-style: normal;
 	}                           
@@ -27,7 +27,7 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 /*========
 [=2:Set classes to trigger icons]
 ======== */ 
-	.snowcone:before{font-family:'SnowconeRegular';} 
+	.snowcone:before{font-family:'SnowconeVanilla';} 
 		.sc-alert:before{content:"\f000";}
 	    .sc-cross:before{content:"\f001";}
 		.sc-expand:before{content:"\f002";}
@@ -84,6 +84,7 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 		.sc-target:before{content:"\f037";} 
 		.sc-trash:before{content:"\f038";} 
 		.sc-notes:before{content:"\f039";} 
+		.sc-library:before{content:"\f03a";} 
 		
 /*========
 [=3:Ensure legacy browsers still see icons]

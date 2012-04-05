@@ -57,7 +57,8 @@ function addicons(){
 			"sc-pants_speedo":"\f036", 
 			"sc-target":"\f037", 
 			"sc-trash":"\f038", 
-			"sc-notes":"\f039" 
+			"sc-notes":"\f039", 
+			"sc-library":"\f03a" 
 		};
 	//Detect IE version
 		var browserver = parseInt($.browser.version, 10);

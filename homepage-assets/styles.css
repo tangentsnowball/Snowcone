@@ -158,7 +158,8 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			#icons li:hover{color:#333;cursor:pointer;}  
 			#icons li:before{color:#111;} 
 		/*Grid view*/
-			#icons.view-grid li{border:none;}
+			#icons.view-grid li{border:none;text-align:center;line-height:5em;}
+				.view-grid li:before{font-size:3em;}
 				.view-grid span{display:none;}
 			        
 	/*Page footer*/

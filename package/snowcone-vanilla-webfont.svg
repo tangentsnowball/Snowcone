@@ -9,7 +9,7 @@ Foundry     : Tangent Snowball
 Foundry URL : wwwtangentsnowballcom
 </metadata>
 <defs>
-<font id="SnowconeRegular" horiz-adv-x="1228" >
+<font id="SnowconeVanilla" horiz-adv-x="1228" >
 <font-face units-per-em="2048" ascent="1638" descent="-410" />
 <missing-glyph horiz-adv-x="500" />
 <glyph unicode="&#x2000;" horiz-adv-x="800" />
@@ -81,5 +81,6 @@ Foundry URL : wwwtangentsnowballcom
 <glyph unicode="&#xf037;" d="M-111 709q0 295 208 502.5t503 207.5q293 0 502 -207.5t209 -502.5t-209 -503t-502 -208q-295 0 -503 208t-208 503zM156 708.5q0 -184.5 130 -314.5t314 -130t314 130t130 314.5t-130 314.5t-314 130t-314 -130t-130 -314.5zM422 708.5q0 -73.5 52 -126t126 -52.5 t125 52.5t51 126t-51 126t-125 52.5t-126 -52.5t-52 -126z" />
 <glyph unicode="&#xf038;" d="M80 1081v174h350v177h352v-177h351v-174h-1053zM166 27v966h881v-966h-881zM430 289h88v440h-88v-440zM518 1255h176v88h-176v-88zM694 289h88v440h-88v-440z" />
 <glyph unicode="&#xf039;" d="M-76 10v1290h172v-172h86v172h172v-172h86v172h172v-172h86v172h172v-1290h-946zM96 268h602v86h-602v-86zM96 440h602v86h-602v-86zM96 612h602v86h-602v-86zM96 784h602v86h-602v-86zM956 10v1032h347v-1032h-347zM956 1128l172 258l175 -258h-347z" />
+<glyph unicode="&#xf03a;" d="M-102 0v90h88v88h90v90h1073v-90h90v-88h88v-90h-1429zM-102 983l714 449l715 -449h-1429zM164 358v537h90v-537h-90zM434 358v537h88v-537h-88zM702 358v537h89v-537h-89zM971 358v537h88v-537h-88z" />
 </font>
 </defs></svg> 
