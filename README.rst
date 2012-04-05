@@ -42,7 +42,7 @@ Step 1: Create your icon as a vector path
 *******************************
 
 1. Download the whole Snowcone repo using the *ZIP download* button.
-2. Open *src/snowcone.ai* in Illustrator.
+2. Open *snowcone/[set name]/src/snowcone.ai* in Illustrator.
 3. Create your new glyph in the same way as the existing ones have been made (keeping within the guides).
 4. Ensure glyph is a compound path.
 5. Copy the glyph to your Clipboard.
@@ -50,7 +50,7 @@ Step 1: Create your icon as a vector path
 Step 2: Add your new glyph to the .glyphs file
 ***********************
 
-1. Open *snowcone.glyphs* in glyphs app.
+1. Open *snowcone/[set name]/src/snowcone.glyphs* in glyphs app.
 2. Double-click an empty character to edit it.
 3. Paste in the glyph you created in Illustrator.   
 4. If Glyphs asks you to *Correct Bounds* do so. It means it will paste it within the glyph area and not way out there on the pasteboard.
@@ -60,20 +60,20 @@ Step 3: Export your glyphs file as a font, then generate a webfont from it
 
 1. **Optional:** If you want to state the webfont has a new version number, you can edit this in *File > Font Info.*
 2. From Glyph's top menu, select *File > Export*.
-3. Export it to the */src/* folder (to override Snowcone-Regular.otf).
+3. Export it to the *snowcone/[set name]/src/* folder (to override Snowcone-Regular.otf).
 4. Visit http://www.fontsquirrel.com/fontface/generator 
-5. Click * Add Fonts * upload the config file (*/src/generator_config.txt*) to fontsquirrel to get the right settings. 
-6. Click * Add Fonts * and upload the source font file (*/src/Snowcone-Regular.otf*)
+5. Click *Add Fonts* upload the config file (*snowcone/generator_config.txt*) to fontsquirrel to get the right settings. 
+6. Click *Add Fonts* and upload the source font file (*snowcone/[set name]/src/Snowcone-[setName].otf*)
 7. Once it has uploaded, click *Download your kit*
-8. Unzip these downloaded files and move them to the */package/* directory (these will override the existing ones).  
+8. Unzip these downloaded files and move them to the */snowcone/[set name]/package/* directory (these will override the existing ones).  
 
 Step 4: Add your new glyph(s) to Snowcone's CSS/JS files
 ***********************                                 
 
-1. Open *package/snowcone.css*.
+1. Open *snowcone/[set name]/package/snowcone.css*.
 2. Add a new line to the set of rules titled **[=2:Set classes to trigger icons]**.
 3. For this line, give your glyph a style name and add the character it is attached to, to the *content* declaration.     
-4. Update *snowcone.js* to account for this change.   
+4. Update *snowcone/[set name]/package/snowcone.js* to account for this change.   
 
 ----------
 
