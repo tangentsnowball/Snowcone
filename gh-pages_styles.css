@@ -155,7 +155,8 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		#icons{list-style:none;padding:0;margin:0;-moz-column-count:2;-webkit-column-count:2;column-count:2;}  
 			#icons li{font-size:1.3em;margin:0;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);color:#999;}  
 			#icons li:hover{color:#333;cursor:pointer;}  
-			#icons li:before{color:#111;}  
+			#icons li:before{color:#111;} 
+	 #footer-page{clear:both;padding-top:1em;font-size:0.71em;border-top:1px solid #E90E8C;margin-top:5em;}
 /*========
 [=6:Media queries]
 ======== */	
