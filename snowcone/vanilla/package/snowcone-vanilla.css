@@ -85,13 +85,18 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 		.sc-target:before{content:"\f037";} 
 		.sc-trash:before{content:"\f038";} 
 		.sc-notes:before{content:"\f039";} 
-		.sc-library:before{content:"\f03a";} 
+		.sc-library:before{content:"\f03a";}
+		.sc-paperclipa:before{content:"\f03b";} 
+		.sc-paperclipb:before{content:"\f03c";} 
+		.sc-syncb:before{content:"\f03d";} 
+		.sc-key:before{content:"\f03e";} 
+		.sc-suitcase:before{content:"\f040";} 
+		.sc-smallx:before{content:"\f041";}
+		.sc-deleteright:before{content:"\f042";} 
+		.sc-deleteleft:before{content:"\f043";} 
+		.sc-folder:before{content:"\f044";} 
 		
 /*========
 [=3:Ensure legacy browsers still see icons]
 ======== */ 		
 	.snowcone-legacy{font-family:'SnowconeRegular';}
-
-	
-
-

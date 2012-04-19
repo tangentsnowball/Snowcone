@@ -58,7 +58,16 @@ function addicons(){
 			"sc-target":"\f037", 
 			"sc-trash":"\f038", 
 			"sc-notes":"\f039", 
-			"sc-library":"\f03a" 
+			"sc-library":"\f03a",
+			"sc-paperclipa":"\f03b",
+			"sc-paperclipb":"\f03c",
+			"sc-syncb":"\f03d",
+			"sc-key":"\f03e",
+			"sc-suitcase":"\f040",
+			"sc-smallx":"\f041",
+			"sc-deleteright":"\f042",
+			"sc-deleteleft":"\f043",
+			"sc-folder":"\f044"
 		};
 	//Detect IE version
 		var browserver = parseInt($.browser.version, 10);
