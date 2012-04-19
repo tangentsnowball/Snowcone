@@ -12,23 +12,23 @@ Foundry URL : wwwtangentsnowballcom
 <font id="SnowconeVanilla" horiz-adv-x="1228" >
 <font-face units-per-em="2048" ascent="1638" descent="-410" />
 <missing-glyph horiz-adv-x="500" />
-<glyph unicode="&#x2000;" horiz-adv-x="800" />
-<glyph unicode="&#x2001;" horiz-adv-x="1603" />
-<glyph unicode="&#x2002;" horiz-adv-x="800" />
-<glyph unicode="&#x2003;" horiz-adv-x="1603" />
-<glyph unicode="&#x2004;" horiz-adv-x="534" />
-<glyph unicode="&#x2005;" horiz-adv-x="399" />
-<glyph unicode="&#x2006;" horiz-adv-x="266" />
-<glyph unicode="&#x2007;" horiz-adv-x="266" />
-<glyph unicode="&#x2008;" horiz-adv-x="198" />
-<glyph unicode="&#x2009;" horiz-adv-x="319" />
-<glyph unicode="&#x200a;" horiz-adv-x="88" />
-<glyph unicode="&#x202f;" horiz-adv-x="319" />
-<glyph unicode="&#x205f;" horiz-adv-x="399" />
+<glyph unicode="&#x2000;" horiz-adv-x="724" />
+<glyph unicode="&#x2001;" horiz-adv-x="1449" />
+<glyph unicode="&#x2002;" horiz-adv-x="724" />
+<glyph unicode="&#x2003;" horiz-adv-x="1449" />
+<glyph unicode="&#x2004;" horiz-adv-x="483" />
+<glyph unicode="&#x2005;" horiz-adv-x="362" />
+<glyph unicode="&#x2006;" horiz-adv-x="241" />
+<glyph unicode="&#x2007;" horiz-adv-x="241" />
+<glyph unicode="&#x2008;" horiz-adv-x="180" />
+<glyph unicode="&#x2009;" horiz-adv-x="288" />
+<glyph unicode="&#x200a;" horiz-adv-x="79" />
+<glyph unicode="&#x202f;" horiz-adv-x="288" />
+<glyph unicode="&#x205f;" horiz-adv-x="362" />
 <glyph unicode="&#xe000;" horiz-adv-x="500" d="M0 0v0v0v0v0z" />
-<glyph unicode="&#xf000;" d="M-82 702q0 293 205 498t498 205q291 0 496.5 -206t205.5 -496.5t-206 -496.5t-496.5 -206t-496.5 205.5t-206 496.5zM485 307q0 -55 39 -95t97 -40q55 0 95 40t40 95t-40 95t-95 40q-57 0 -96.5 -40t-39.5 -95zM500 649q0 -51 34.5 -86t86.5 -35q49 0 84.5 35t35.5 86 v463q0 51 -35.5 86t-84.5 35q-51 0 -86 -35t-35 -86v-463z" />
-<glyph unicode="&#xf001;" d="M-84 262l436 436l-436 437l260 260l436 -437l437 437l262 -260l-437 -437l437 -436l-262 -262l-437 436l-436 -436z" />
-<glyph unicode="&#xf002;" d="M-174 616v371h616v617h371v-617h617v-371h-617v-616h-371v616h-616z" />
+<glyph unicode="&#xf000;" d="M-111 721q0 299 211 510t510 211t510 -211t211 -510t-211 -510t-510 -211t-510 211t-211 510zM471 315.5q0 -57.5 41 -98.5t98.5 -41t98.5 41t41 98.5t-41 97.5t-98.5 40t-98.5 -40t-41 -97.5zM485 666q0 -51 37 -88t88.5 -37t88 36.5t36.5 88.5v475q0 51 -36.5 88 t-88 37t-88.5 -37t-37 -88v-475z" />
+<glyph unicode="&#xf001;" d="M-106 270l450 451l-450 450l270 271l450 -451l451 451l270 -271l-450 -450l450 -451l-270 -270l-451 451l-450 -451z" />
+<glyph unicode="&#xf002;" d="M-109 555v332h555v555h332v-555h555v-332h-555v-555h-332v555h-555z" />
 <glyph unicode="&#xf003;" d="M0 479l537 -479l737 1180h-111l-651 -725l-438 135z" />
 <glyph unicode="&#xf004;" d="M-193 653h617h371h616v371h-616h-371h-617v-371z" />
 <glyph unicode="&#xf005;" d="M-82 698l260 260l436 -434l437 434l262 -260l-436 -436l-263 -262l-260 262z" />
@@ -64,7 +64,7 @@ Foundry URL : wwwtangentsnowballcom
 <glyph unicode="&#xf026;" d="M-43 0v678h168v-170h1018v170h168v-678h-1354zM295 932l338 422l340 -422h-170v-340h-338v340h-170z" />
 <glyph unicode="&#xf027;" d="M-61 0v678h167v-170h1016v170h170v-678h-1353zM276 1016h170v338h338v-338h170l-340 -424z" />
 <glyph unicode="&#xf028;" d="M276 0l353 264l352 -264v1409h-705v-1409z" />
-<glyph unicode="&#xf029;" d="M106 0v1403h177h876l-262 -350l262 -353h-876v-700h-177z" />
+<glyph unicode="&#xf029;" d="M88 -4v1438h1079l-270 -359l270 -360h-899v-719h-180z" />
 <glyph unicode="&#xf02a;" d="M-27 0v1178h996v-1178h-996zM154 272h634v90h-634v-90zM154 453h634v90h-634v-90zM154 635h634v90h-634v-90zM154 815h634v90h-634v-90zM244 1268h817v-996h180v1178h-997v-182z" />
 <glyph unicode="&#xf02b;" d="M270 182q0 41 45 199t91 295l47 139l-183 -90q8 10 21.5 28.5t54.5 65.5t82 83t97.5 65.5t107.5 29.5q53 0 89 -11t54.5 -25.5t27.5 -43t10 -47t1 -55.5q0 -41 -45 -198.5t-90 -297.5l-47 -137l182 90q-8 -10 -21.5 -28.5t-54.5 -65.5t-82 -83t-97 -65.5t-107 -29.5 q-53 0 -89 11.5t-54.5 25.5t-28 43t-10.5 47t-1 55zM543 1270q0 -76 52 -129.5t128 -53.5t129 53.5t53 129.5q0 74 -53 127t-129 53t-128 -53t-52 -127z" />
 <glyph unicode="&#xf02c;" d="M-80 0v1212h86v-174h346v174h520v-174h347v174h86v-1212h-1385zM6 174h172v172h-172v-172zM6 432h172v174h-172v-174zM6 780h1213v86h-1213v-86zM92 1126h174v258h-174v-258zM266 174h172v172h-172v-172zM266 432h172v174h-172v-174zM526 174h172v172h-172v-172zM526 432 h172v174h-172v-174zM784 174h174v172h-174v-172zM958 1126h175v258h-175v-258zM1044 174h175v172h-175v-172zM1044 432h175v174h-175v-174z" />
