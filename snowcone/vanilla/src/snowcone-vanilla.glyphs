@@ -1,4 +1,7 @@
 {
+DisplayStrings = (
+/unif045
+);
 copyright = tangentsnowball;
 date = "2012-01-05 09:51:22 +0000";
 designer = "Tangent Snowball (@flamingwhopper, @nathanstaines, @jackarmley, @pete_miller)";
@@ -6763,7 +6766,7 @@ unicode = F041;
 },
 {
 glyphname = unif042;
-lastChange = "2012-04-19 16:41:13 +0000";
+lastChange = "2012-04-23 11:08:34 +0000";
 layers = (
 {
 layerId = "5DF6A5AF-1C8C-47E3-A702-CFF98FD4A394";
@@ -6782,18 +6785,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"99 401 LINE",
-"179 320 LINE",
-"260 401 LINE",
-"300 360 LINE",
-"220 280 LINE",
-"300 200 LINE",
-"260 159 LINE",
-"179 240 LINE",
-"99 159 LINE",
-"59 200 LINE",
-"139 280 LINE",
-"59 360 LINE"
+"100 408 LINE",
+"185 324 LINE",
+"270 408 LINE",
+"320 358 LINE",
+"236 273 LINE",
+"320 188 LINE",
+"270 138 LINE",
+"185 222 LINE",
+"100 138 LINE",
+"50 188 LINE",
+"134 273 LINE",
+"50 358 LINE"
 );
 }
 );
@@ -6804,7 +6807,7 @@ unicode = F042;
 },
 {
 glyphname = unif043;
-lastChange = "2012-04-19 16:42:39 +0000";
+lastChange = "2012-04-23 11:08:47 +0000";
 layers = (
 {
 layerId = "5DF6A5AF-1C8C-47E3-A702-CFF98FD4A394";
@@ -6813,28 +6816,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-52 280 LINE SMOOTH",
-"212 60 LINE SMOOTH",
-"652 60 LINE SMOOTH",
-"652 500 LINE SMOOTH",
-"212 500 LINE SMOOTH"
+"-52 280 LINE",
+"212 60 LINE",
+"652 60 LINE",
+"652 500 LINE",
+"212 500 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"501 159 LINE SMOOTH",
-"421 240 LINE SMOOTH",
-"340 159 LINE SMOOTH",
-"300 200 LINE SMOOTH",
-"381 280 LINE SMOOTH",
-"300 360 LINE SMOOTH",
-"340 401 LINE SMOOTH",
-"421 320 LINE SMOOTH",
-"501 401 LINE SMOOTH",
-"541 360 LINE SMOOTH",
-"461 280 LINE SMOOTH",
-"541 200 LINE SMOOTH"
+"500 152 LINE",
+"415 236 LINE",
+"330 152 LINE",
+"280 202 LINE",
+"364 287 LINE",
+"280 372 LINE",
+"330 422 LINE",
+"415 338 LINE",
+"500 422 LINE",
+"550 372 LINE",
+"466 287 LINE",
+"550 202 LINE"
 );
 }
 );
@@ -6883,11 +6886,64 @@ unicode = F044;
 },
 {
 glyphname = unif045;
-lastChange = "2012-04-05 09:49:32 +0000";
+lastChange = "2012-04-23 11:09:00 +0000";
 layers = (
 {
 layerId = "5DF6A5AF-1C8C-47E3-A702-CFF98FD4A394";
 name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"564 704 LINE",
+"432 704 LINE",
+"432 660 LINE",
+"-52 660 LINE",
+"-52 572 LINE",
+"432 572 LINE",
+"432 528 LINE",
+"564 528 LINE",
+"564 572 LINE",
+"652 572 LINE",
+"652 660 LINE",
+"564 660 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"36 440 LINE",
+"36 396 LINE",
+"-52 396 LINE",
+"-52 308 LINE",
+"36 308 LINE",
+"36 264 LINE",
+"168 264 LINE",
+"168 308 LINE",
+"652 308 LINE",
+"652 396 LINE",
+"168 396 LINE",
+"168 440 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"432 176 LINE",
+"432 132 LINE",
+"-52 132 LINE",
+"-52 44 LINE",
+"432 44 LINE",
+"432 0 LINE",
+"564 0 LINE",
+"564 44 LINE",
+"652 44 LINE",
+"652 132 LINE",
+"564 132 LINE",
+"564 176 LINE"
+);
+}
+);
 width = 600;
 }
 );

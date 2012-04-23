@@ -94,7 +94,8 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 		.sc-smallx:before{content:"\f041";}
 		.sc-deleteright:before{content:"\f042";} 
 		.sc-deleteleft:before{content:"\f043";} 
-		.sc-folder:before{content:"\f044";} 
+		.sc-folder:before{content:"\f044";}
+		.sc-slider:before{content:"\f045";} 
 		
 /*========
 [=3:Ensure legacy browsers still see icons]
