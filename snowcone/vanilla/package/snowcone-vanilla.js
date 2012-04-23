@@ -68,7 +68,8 @@ function addicons(){
 			"sc-deleteright":"\f042",
 			"sc-deleteleft":"\f043",
 			"sc-folder":"\f044",
-			"sc-slider":"\f045"
+			"sc-slider":"\f045",
+			"sc-dot":"\f046"
 		};
 	//Detect IE version
 		var browserver = parseInt($.browser.version, 10);

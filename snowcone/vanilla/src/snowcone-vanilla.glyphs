@@ -6948,11 +6948,30 @@ unicode = F045;
 },
 {
 glyphname = unif046;
-lastChange = "2012-04-05 09:49:32 +0000";
+lastChange = "2012-04-23 11:50:09 +0000";
 layers = (
 {
 layerId = "5DF6A5AF-1C8C-47E3-A702-CFF98FD4A394";
 name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"652 158 OFFCURVE",
+"494 0 OFFCURVE",
+"300 0 CURVE SMOOTH",
+"106 0 OFFCURVE",
+"-52 158 OFFCURVE",
+"-52 352 CURVE SMOOTH",
+"-52 546 OFFCURVE",
+"106 704 OFFCURVE",
+"300 704 CURVE SMOOTH",
+"494 704 OFFCURVE",
+"652 546 OFFCURVE",
+"652 352 CURVE SMOOTH"
+);
+}
+);
 width = 600;
 }
 );
