@@ -1,7 +1,4 @@
 {
-DisplayStrings = (
-/unif045
-);
 copyright = tangentsnowball;
 date = "2012-01-05 09:51:22 +0000";
 designer = "Tangent Snowball (@flamingwhopper, @nathanstaines, @jackarmley, @pete_miller)";
@@ -6766,7 +6763,7 @@ unicode = F041;
 },
 {
 glyphname = unif042;
-lastChange = "2012-04-23 11:08:34 +0000";
+lastChange = "2012-04-23 11:26:39 +0000";
 layers = (
 {
 layerId = "5DF6A5AF-1C8C-47E3-A702-CFF98FD4A394";
@@ -6785,18 +6782,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"100 408 LINE",
-"185 324 LINE",
-"270 408 LINE",
-"320 358 LINE",
-"236 273 LINE",
-"320 188 LINE",
-"270 138 LINE",
-"185 222 LINE",
-"100 138 LINE",
-"50 188 LINE",
-"134 273 LINE",
-"50 358 LINE"
+"89 441 LINE",
+"190 339 LINE",
+"292 441 LINE",
+"353 380 LINE",
+"251 278 LINE",
+"353 177 LINE",
+"292 116 LINE",
+"190 217 LINE",
+"89 116 LINE",
+"28 177 LINE",
+"129 278 LINE",
+"28 380 LINE"
 );
 }
 );
@@ -6807,7 +6804,7 @@ unicode = F042;
 },
 {
 glyphname = unif043;
-lastChange = "2012-04-23 11:08:47 +0000";
+lastChange = "2012-04-23 11:26:54 +0000";
 layers = (
 {
 layerId = "5DF6A5AF-1C8C-47E3-A702-CFF98FD4A394";
@@ -6826,18 +6823,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"500 152 LINE",
-"415 236 LINE",
-"330 152 LINE",
-"280 202 LINE",
-"364 287 LINE",
-"280 372 LINE",
-"330 422 LINE",
-"415 338 LINE",
-"500 422 LINE",
-"550 372 LINE",
-"466 287 LINE",
-"550 202 LINE"
+"511 119 LINE",
+"410 221 LINE",
+"308 119 LINE",
+"247 180 LINE",
+"349 282 LINE",
+"247 383 LINE",
+"308 444 LINE",
+"410 343 LINE",
+"511 444 LINE",
+"572 383 LINE",
+"471 282 LINE",
+"572 180 LINE"
 );
 }
 );
