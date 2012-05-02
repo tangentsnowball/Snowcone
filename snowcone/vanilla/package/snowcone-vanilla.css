@@ -97,6 +97,10 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 		.sc-folder:before{content:"\f044";}
 		.sc-slider:before{content:"\f045";} 
 		.sc-dot:before{content:"\f046";} 
+		.sc-sort:before{content:"\f047";} 
+		.sc-arrowup:before{content:"\f048";}
+		.sc-arrowdown:before{content:"\f049";} 
+		.sc-filter:before{content:"\f04a";} 
 		
 /*========
 [=3:Ensure legacy browsers still see icons]

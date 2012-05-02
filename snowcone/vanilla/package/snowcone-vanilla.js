@@ -69,7 +69,11 @@ function addicons(){
 			"sc-deleteleft":"\f043",
 			"sc-folder":"\f044",
 			"sc-slider":"\f045",
-			"sc-dot":"\f046"
+			"sc-dot":"\f046",
+			"sc-sort":"\f047",
+			"sc-arrowup":"\f048",
+			"sc-arrowdown":"\f049",
+			"sc-filter":"\f04a"
 		};
 	//Detect IE version
 		var browserver = parseInt($.browser.version, 10);
