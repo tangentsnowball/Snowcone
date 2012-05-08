@@ -73,7 +73,14 @@ function addicons(){
 			"sc-sort":"\f047",
 			"sc-arrowup":"\f048",
 			"sc-arrowdown":"\f049",
-			"sc-filter":"\f04a"
+			"sc-filter":"\f04a",
+			"sc-info_circle":"\f04b",
+			"sc-delivery":"\f04c",
+			"sc-payment":"\f04d",
+			"sc-help_circle":"\f04e",
+			"sc-flag_tilt":"\f050",
+			"sc-book":"\f051",
+			"sc-logout_mac":"\f052"
 		};
 	//Detect IE version
 		var browserver = parseInt($.browser.version, 10);

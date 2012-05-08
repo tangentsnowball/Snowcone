@@ -101,6 +101,13 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 		.sc-arrowup:before{content:"\f048";}
 		.sc-arrowdown:before{content:"\f049";} 
 		.sc-filter:before{content:"\f04a";} 
+		.sc-info_circle:before{content:"\f04b";}
+		.sc-delivery:before{content:"\f04c";}
+		.sc-payment:before{content:"\f04d";}
+		.sc-help_circle:before{content:"\f04e";}
+		.sc-flag_tilt:before{content:"\f050";}
+		.sc-book:before{content:"\f051";}
+		.sc-logout_mac:before{content:"\f052";}
 		
 /*========
 [=3:Ensure legacy browsers still see icons]
