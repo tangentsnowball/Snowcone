@@ -113,6 +113,7 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 .sc-favourite:before          { content: "\f070"; }
 .sc-fb-fill:before            { content: "\f071"; }
 .sc-twitter-fill:before       { content: "\f072"; }
+.sc-cart:before       		  { content: "\f073"; }
 
 /* Ensure legacy browsers still see icons
 ------------------------- */
