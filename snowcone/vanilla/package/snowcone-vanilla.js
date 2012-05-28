@@ -82,7 +82,8 @@ function addicons(){
     "sc-favourite":           "\f070",
     "sc-fb_fill":             "\f071",
     "sc-twitter_fill":        "\f072",
-	"sc-cart":        		  "\f073"
+	"sc-cart":        		  "\f073",
+	"sc-twitter_nofill":	  "\f074"
   };
 
   //Detect IE version
