@@ -115,6 +115,7 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 .sc-twitter-fill:before       { content: "\f072"; }
 .sc-cart:before       		  { content: "\f073"; }
 .sc-twitter_nofill:before	  { content: "\f074"; }
+.sc-zoomin:before	  		  { content: "\f075"; }
 
 /* Ensure legacy browsers still see icons
 ------------------------- */
