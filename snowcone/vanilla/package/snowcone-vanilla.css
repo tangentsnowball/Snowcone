@@ -116,6 +116,13 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 .sc-cart:before       		  { content: "\f073"; }
 .sc-twitter_nofill:before	  { content: "\f074"; }
 .sc-zoomin:before	  		  { content: "\f075"; }
+.sc-zoomout:before	  		  { content: "\f076"; }
+.sc-listview:before	  		  { content: "\f077"; }
+.sc-gridview:before	  		  { content: "\f078"; }
+.sc-stopwatch:before	  	  { content: "\f079"; }
+.sc-clock:before	  		  { content: "\f07a"; }
+.sc-timer:before	  		  { content: "\f07b"; }
+.sc-shop:before	  		      { content: "\f07c"; }
 
 /* Ensure legacy browsers still see icons
 ------------------------- */
