@@ -9344,24 +9344,24 @@ unicode = F0A1;
 },
 {
 glyphname = unif0a2;
-lastChange = "2012-06-01 14:19:45 +0000";
+lastChange = "2012-06-07 13:57:32 +0000";
 layers = (
 {
 layerId = "5DF6A5AF-1C8C-47E3-A702-CFF98FD4A394";
 name = Regular;
-width = 600;
+width = 2048;
 }
 );
 unicode = F0A2;
 },
 {
 glyphname = unif0a3;
-lastChange = "2012-06-07 13:08:17 +0000";
+lastChange = "2012-06-07 13:57:32 +0000";
 layers = (
 {
 layerId = "5DF6A5AF-1C8C-47E3-A702-CFF98FD4A394";
 name = Regular;
-width = 600;
+width = 2048;
 }
 );
 unicode = F0A3;
