@@ -164,8 +164,8 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 		/*Grid view*/
 			.view-grid #abstract{display:none;}
 			.view-grid #icons .icons{-moz-column-count:5;-webkit-column-count:5;column-count:5;}
-			.view-grid #icons .icons li{border:none;text-align:center;line-height:5em;position:relative;}
-				.view-grid .icons li:before{font-size:3em;padding:0;}
+			.view-grid #icons .icons li{border:none;text-align:center;position:relative;}
+				.view-grid .icons li:before{font-size:1em;padding:0;vertical-align:middle;}
 				.view-grid .icons span{display:none;}
 			        
 	/*Page footer*/
