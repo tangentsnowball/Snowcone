@@ -1,4 +1,4 @@
-Snowcone v2  
+Snowcone v3  
 ========
 
 A scalable, semantic @fontface loving icon set, made by Tangent Snowball. 
@@ -85,12 +85,9 @@ Icons to do
 
 - external link
 - document types (music, movie etc...)
-- add profile icon
-- zoom in
 - lightning bolt
-- info tooltip
 
 Icons to improve
 ***********
 
-- Link icon 
+- TBC
