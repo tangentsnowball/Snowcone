@@ -42,10 +42,12 @@ Step 1: Create your icon as a vector path
 *******************************
 
 1. Download the whole Snowcone repo using the *ZIP download* button.
-2. Open *snowcone/[set name]/src/snowcone.ai* in Illustrator.
+2. Open *snowcone/[set name]/src/Snowcone-blank-CS-16x16.ai* in Illustrator.
 3. Create your new glyph in the same way as the existing ones have been made (keeping within the guides).
-4. Ensure glyph is a compound path.
-5. Copy the glyph to your Clipboard.
+4. Open *snowcone/[set name]/src/Snowcone-blank-CS_2048x2048.ai* in Illustrator.
+5. Enlarge icon to 2048x2048. Demo is in the illustrator file.
+6. Ensure glyph is a compound path.
+7. Copy the glyph to your Clipboard.
 
 Step 2: Add your new glyph to the .glyphs file
 ***********************
