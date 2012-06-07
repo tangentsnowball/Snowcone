@@ -31,25 +31,26 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 
 .snowcone:before {
   font-family: "SnowconeVanilla";
+  font-size: 0.4em;
 }
 
 /* \f020 is not a valid unicode character. Start icons from here down. */
-.sc-gplus-fill:before         { content: "\f021"; }
+.sc-tangentsnowball:before    { content: "\f021"; }
 .sc-profile-blacklist:before  { content: "\f022"; }
 .sc-tag:before                { content: "\f023"; }
-.sc-tangentsnowball:before    { content: "\f024"; }
+.sc-star:before    			  { content: "\f024"; }
 .sc-refresh:before            { content: "\f025"; }
 .sc-upload:before             { content: "\f026"; }
 .sc-download:before           { content: "\f027"; }
 .sc-bookmark:before           { content: "\f028"; }
-.sc-flag:before               { content: "\f029"; }
+.sc-flaga:before              { content: "\f029"; }
 .sc-doc-default:before        { content: "\f02a"; }
 .sc-info:before               { content: "\f02b"; }
 .sc-calendar:before           { content: "\f02c"; }
 .sc-print:before              { content: "\f02d"; }
 .sc-home:before               { content: "\f02e"; }
 .sc-view:before               { content: "\f02f"; }
-.sc-sync:before               { content: "\f030"; }
+.sc-synca:before              { content: "\f030"; }
 .sc-hcard:before              { content: "\f031"; }
 .sc-shop-bag:before           { content: "\f032"; }
 .sc-pants:before              { content: "\f033"; }
@@ -66,8 +67,8 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 .sc-key:before                { content: "\f03e"; }
 .sc-suitcase:before           { content: "\f040"; }
 .sc-smallx:before             { content: "\f041"; }
-.sc-deleteright:before        { content: "\f042"; }
-.sc-deleteleft:before         { content: "\f043"; }
+.sc-delete-right:before       { content: "\f042"; }
+.sc-delete-left:before        { content: "\f043"; }
 .sc-folder:before             { content: "\f044"; }
 .sc-slider:before             { content: "\f045"; }
 .sc-dot:before                { content: "\f046"; }
@@ -79,15 +80,14 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 .sc-delivery:before           { content: "\f04c"; }
 .sc-payment:before            { content: "\f04d"; }
 .sc-help-circle:before        { content: "\f04e"; }
-.sc-flag-tilt:before          { content: "\f050"; }
+.sc-flagb:before          	  { content: "\f050"; }
 .sc-book:before               { content: "\f051"; }
 .sc-logout-mac:before         { content: "\f052"; }
-
 .sc-alert:before              { content: "\f053"; }
 .sc-cross:before              { content: "\f054"; }
-.sc-expand:before             { content: "\f055"; }
+.sc-plus:before          	  { content: "\f055"; }
 .sc-tick:before               { content: "\f056"; }
-.sc-contract:before           { content: "\f057"; }
+.sc-minus:before        	  { content: "\f057"; }
 .sc-outline-down:before       { content: "\f058"; }
 .sc-outline-up:before         { content: "\f059"; }
 .sc-outline-right:before      { content: "\f05a"; }
@@ -110,19 +110,41 @@ https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
 .sc-link:before               { content: "\f06c"; }
 .sc-stop:before               { content: "\f06d"; }
 .sc-mapmarker:before          { content: "\f06e"; }
-.sc-favourite:before          { content: "\f070"; }
+.sc-gplus-fill:before		  { content: "\f070"; }
 .sc-fb-fill:before            { content: "\f071"; }
 .sc-twitter-fill:before       { content: "\f072"; }
 .sc-cart:before       		  { content: "\f073"; }
-.sc-twitter_nofill:before	  { content: "\f074"; }
+.sc-twitter-nofill:before	  { content: "\f074"; }
 .sc-zoomin:before	  		  { content: "\f075"; }
 .sc-zoomout:before	  		  { content: "\f076"; }
-.sc-listview:before	  		  { content: "\f077"; }
-.sc-gridview:before	  		  { content: "\f078"; }
+.sc-listviewa:before  		  { content: "\f077"; }
+.sc-gridviewa:before  		  { content: "\f078"; }
 .sc-stopwatch:before	  	  { content: "\f079"; }
 .sc-clock:before	  		  { content: "\f07a"; }
 .sc-timer:before	  		  { content: "\f07b"; }
 .sc-shop:before	  		      { content: "\f07c"; }
+.sc-outline-btmright:before   { content: "\f07d"; }
+.sc-outline-btmleft:before    { content: "\f07e"; }
+.sc-outline-topright:before   { content: "\f080"; }
+.sc-outline-topleft:before    { content: "\f081"; }
+.sc-fill-btmright:before      { content: "\f082"; }
+.sc-fill-btmleft:before       { content: "\f083"; }
+.sc-fill-topright:before      { content: "\f084"; }
+.sc-fill-topleft:before 	  { content: "\f085"; }
+.sc-outline-minimise:before   { content: "\f086"; }	
+.sc-outline-maximise:before   { content: "\f087"; }
+.sc-fill-minimise:before 	  { content: "\f088"; }
+.sc-fill-maximise:before 	  { content: "\f089"; }	
+.sc-minimise:before 	      { content: "\f08a"; }	
+.sc-maximise:before 	      { content: "\f08b"; }		
+.sc-listviewb:before 	      { content: "\f08c"; }	
+.sc-gridviewb:before 	      { content: "\f08d"; }
+.sc-downarrowb:before 	      { content: "\f08e"; }
+.sc-rightarrow:before 	      { content: "\f090"; }
+.sc-leftarrow:before 	      { content: "\f091"; }
+.sc-uparrowb:before 	      { content: "\f092"; }
+.sc-addressbook:before 	      { content: "\f093"; }
+.sc-paperclipc:before 	      { content: "\f094"; }	
 
 /* Ensure legacy browsers still see icons
 ------------------------- */
