@@ -118,7 +118,11 @@ function addicons(){
 	"sc-leftarrow":		      "\f091",
 	"sc-uparrowb":  	      "\f092",
 	"sc-addressbook":  	      "\f093",
-	"sc-paperclipc":  		  "\f094"
+	"sc-paperclipc":  		  "\f094",
+	"sc-thumbup":	  		  "\f095",
+	"sc-thumbdown":  		  "\f096",
+	"sc-bell":  			  "\f097",
+	"sc-flame":		  		  "\f098"
   };
 
   //Detect IE version

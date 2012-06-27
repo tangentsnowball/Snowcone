@@ -150,6 +150,10 @@ http://creativecommons.org/licenses/by-sa/3.0/"
 .sc-uparrowb:before 	      { content: "\f092"; }
 .sc-addressbook:before 	      { content: "\f093"; }
 .sc-paperclipc:before 	      { content: "\f094"; }	
+.sc-thumbup:before	 	      { content: "\f095"; }	
+.sc-thumbdown:before 	      { content: "\f096"; }	
+.sc-bell:before 	 	      { content: "\f097"; }	
+.sc-flame:before 	      	  { content: "\f098"; }	
 
 /* Ensure legacy browsers still see icons
 ------------------------- */

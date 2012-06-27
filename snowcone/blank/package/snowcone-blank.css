@@ -1,0 +1,52 @@
+/*================
+Screen styles for the Snowcone icon webfont
+Flavour: Font Set Name
+Version 1.0
+Author: Tangent Snowball FED team
+Created: DD MM YYYY
+Modified: --  
+
+NOTE: For a full list of all glyph codes on the PUA plane this font uses, take a look at fontawesome's brillopads CSS:
+https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css
+
+--
+Snowcone by Tangent Snowball is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. Based on a work at github.com.
+http://creativecommons.org/licenses/by-sa/3.0/"	
+--
+
+/*========
+[=1:Set webfont stack for the icons
+------------------------- */
+
+@font-face {
+  font-family: "SnowconeFontSet";
+  src: url(snowcone-fontset-webfont.eot);
+  src: url(snowcone-fontset-webfont.eot?#iefix) format("embedded-opentype"),
+	   url(snowcone-fontset-webfont.woff) format("woff"),
+       url(snowcone-fontset-webfont.ttf) format("truetype"),
+       url(snowcone-fontset-webfont.svg#SnowconeFontset) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}                      
+
+/*========
+[=2:Set classes to trigger icons
+------------------------- */
+
+.snowcone:before {
+  font-family: "SnowconeFontSet";
+  font-size: 0.4em;
+}
+
+/* \f020 is not a valid unicode character. Start icons from here down. */
+		
+	.sc-tangentsnowball:before		{content:"\f021";}
+		
+/*========
+[=3:Ensure legacy browsers still see icons]
+======== */ 		
+	.snowcone-legacy{font-family:'SnowconeRegular';}
+
+	
+
+
