@@ -154,8 +154,15 @@ http://creativecommons.org/licenses/by-sa/3.0/"
 .sc-thumbdown:before 	      { content: "\f096"; }	
 .sc-bell:before 	 	      { content: "\f097"; }	
 .sc-flame:before 	      	  { content: "\f098"; }	
+.sc-keyline-up:before		  {content: "\f099"; }
+.sc-keyline-down:before		  {content: "\f09a"; }
+.sc-keyline-right:before	  {content: "\f09b"; }
+.sc-keyline-left:before		  {content: "\f09c"; }
+.sc-menutoggle:before	      {content: "\f09d"; }
+.sc-image:before      		  {content: "\f09e"; }
+
 
 /* Ensure legacy browsers still see icons
 ------------------------- */
 
-.snowcone-legacy { font-family: "SnowconeRegular"; }
+.snowcone-legacy { font-family: "SnowconeVanilla"; }

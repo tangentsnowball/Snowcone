@@ -122,7 +122,13 @@ function addicons(){
 	"sc-thumbup":	  		  "\f095",
 	"sc-thumbdown":  		  "\f096",
 	"sc-bell":  			  "\f097",
-	"sc-flame":		  		  "\f098"
+	"sc-flame":		  		  "\f098",
+	"sc-keyline-up":		  "\f099",
+	"sc-keyline-down":		  "\f09a",
+	"sc-keyline-right":		  "\f09b",
+	"sc-keyline-left":		  "\f09c",
+	"sc-menutoggle":	  "\f09d",
+	"sc-image":      		  "\f09e"
   };
 
   //Detect IE version
