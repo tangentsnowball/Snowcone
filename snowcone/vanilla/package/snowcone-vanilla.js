@@ -127,8 +127,12 @@ function addicons(){
 	"sc-keyline-down":		  "\f09a",
 	"sc-keyline-right":		  "\f09b",
 	"sc-keyline-left":		  "\f09c",
-	"sc-menutoggle":	  "\f09d",
-	"sc-image":      		  "\f09e"
+	"sc-menutoggle":	      "\f09d",
+	"sc-image":      		  "\f09e",
+	"sc-hairline-up":		  "\f0a0",
+	"sc-hairline-down":		  "\f0a1",
+	"sc-hairline-right":	  "\f0a2",
+	"sc-hairline-left":		  "\f0a3"
   };
 
   //Detect IE version
