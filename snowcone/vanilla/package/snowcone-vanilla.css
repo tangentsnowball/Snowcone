@@ -31,10 +31,11 @@ http://creativecommons.org/licenses/by-sa/3.0/"
   font-style: normal;
 }
 
-/* Set classes to trigger icons
+/* Set classes to trigger icons. Also, apply same values to legacy class (for IE6/7)
 ------------------------- */
 
-.snowcone:before {
+.snowcone:before,
+.snowcone-legacy{
   font-family: "SnowconeVanilla";
   font-size: 0.4em;
 }
@@ -164,10 +165,3 @@ http://creativecommons.org/licenses/by-sa/3.0/"
 .sc-hairline-down:before	  { content: "\f0a1"; }
 .sc-hairline-right:before	  { content: "\f0a2"; }
 .sc-hairline-left:before	  { content: "\f0a3"; }
-
-
-
-/* Ensure legacy browsers still see icons
-------------------------- */
-
-.snowcone-legacy { font-family: "SnowconeVanilla"; }
