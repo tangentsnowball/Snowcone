@@ -6,18 +6,19 @@
 					//Set variables
 					var $this = $(this);
 					var toggleClass = $this.attr("class");
-				   //Perform toggle 
+				   //Perform toggle
 				   $("body")
 						.removeAttr("class")
 						.addClass(toggleClass);
 				});
 			}
 		}
-	} 
+	}
 window.homepage = homepage;
-})(window);	  
-	
+})(window);
+
 
 $(document).ready(function() {
-	homepage.ui.toggleIconView()		 
+	//homepage.ui.toggleIconView()
+	homepage.ui.tooltip()
 });
