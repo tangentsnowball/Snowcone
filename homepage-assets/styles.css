@@ -96,34 +96,6 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 				a:visited{color:#E90E8C;text-decoration:none;}
 				a:hover{color:#E90E8C;text-decoration:none;border-bottom:1px dotted #E90E8C;}
 				a:active{color:#E90E8C;text-decoration:none;}
-		/*-Linked images-*/
-			a img{border:none;}
-	/*--[=2c:Images]--*/
-		/*Standalone*/
-			img{margin:0 0 1em 0;padding:0.14em 0 0 0;max-width:100%;}
-		/*Within a figure tag*/
-			figure{margin:0 0 2.08em 0;}
-				figure img{margin:0 0 0.41em 0;}
-				figure figcaption{font-size:0.85em;margin:0;}
-	/*--[=2d:Forms]--*/
-		/*Set global constants*/
-			form{margin:0 0 1em 0;}
-				legend{margin:0 0 0.25em 0;}
-				label{display:block;margin:0 0 0.25em 0;}
-				button{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-		/*Set styles for full forms (sets of inputs/labels should always be encased in an ordered list for example)*/
-				input,textarea{display:block;width:auto;margin:0 0 0.78em 0;padding:0.5em 5px;border:1px solid #D1D1D1;font-size:1em;line-height:1.4em;width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-				select{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-				input[type="radio"],input[type="checkbox"]{width:auto;border:none;}
-				legend{display:none;}
-				form ol{padding:0;margin:0 0 1em 0;list-style:none;}
-	/*--[=2e:Tables]--*/
-		table{margin:0 0 1em 0;width:100%;border:none;}
-			caption{text-align:left;padding:0 0 0.5em 0;}
-			td,th{padding:1em 0;text-align:left;}
-			thead{font-weight:bold;}
-				thead th{border-bottom:1px solid #dcdcdc;box-shadow:0 1px 0 #fff;}
-			tfoot{font-style:italic;}
 	/*--[=2d:Display modifiers]--*/
 		/*Hide an element*/
 			.inv{text-indent:-90000px;height:0;position:absolute;}
@@ -149,7 +121,7 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 ======== */
 	/*Outer*/
 		html{background:#fff;}
-		body{width:90%;margin:0 auto 0 auto;padding:0 0 3em 0;}
+		body{max-width:1000px;width:90%;margin:0 auto 0 auto;padding:0 0 3em 0;}
 	/*Page header*/
 		#header-page{position:relative;text-align:center;border-bottom:4px solid #E90E8C;padding:1.5em 0;margin:0 0 4em 0;line-height:1.3em;}
 			#header-page h1{font-size:4em;color:#E90E8C;margin:0 0 0.05em 0;}
@@ -167,20 +139,16 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			#fork-btn{background:#E90E8C;width:8em;font-size:2em;margin:0 auto 0.5em auto;color:#fff;display:block;padding:0.5em 1em;border-radius:20px;text-shadow:0 -1px 0 #6D0641;box-shadow:inset 0 0 4px rgba(1,1,1,.5),0 0 3px rgba(1,1,1,.9);border:10px solid #F2289C;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-align:center;}
 	/*Icon preview*/
 		#icons h1{text-align:center;font-size:2em;}
-		#icons .icons{list-style:none;padding:0;margin:0;-moz-column-count:2;-webkit-column-count:2;column-count:2;}
-			#icons .icons li{font-size:1.3em;margin:0;padding:0.5em 20px;border-bottom:1px solid rgba(1,1,1,.15);color:#999;}
-			#icons .icons li span{color:#333;}
+		#icons .icons{list-style:none;padding:0;margin:0;}
+			#icons .icons li{font-size:1.3em;margin:0;border:none;text-align:center;position:relative;width:200px;float:left;height:200px;}
+			#icons .icons li span{display:none;}
+			.icons li:before{font-size:1em;color:#111; padding: 0 2em 0 0;vertical-align:middle;}
 			#icons .icons li:after{
-				content:"class: "attr(class);
+				content:attr(class);
 				display:block;
 				font-size:0.71em;
+				padding-top:1em;
 			}
-			#icons .icons li:before{color:#111; padding: 0 2em 0 0;}
-		/*Grid view*/
-			.view-grid #icons .icons{-moz-column-count:5;-webkit-column-count:5;column-count:5;}
-			.view-grid #icons .icons li{border:none;text-align:center;position:relative; line-height:3em; margin-bottom: 2em;}
-				.view-grid .icons li:before{font-size:1em;padding:0;vertical-align:middle;}
-				.view-grid .icons span{display:none;}
 
 	/*Page footer*/
 	 	#footer-page{clear:both;padding-top:2em;font-size:0.71em;border-top:1px dashed #000;margin-top:5em;}
@@ -194,7 +162,6 @@ v1.6.1 | Last Updated: 2010-09-17 | Author: Richard Clark (richclarkdesign.com)
 			#header-page h2{font-size:1em;}
 			#abstract{width:100%;float:none;padding:0;}
 			#fork-btn{width:100%;font-size:1.2em;margin:0 0 2em 0;}
-			#icons .icons{-moz-column-count:1;-webkit-column-count:1;column-count:1;}
 				#icons li{text-align:center;}
 		}
 
