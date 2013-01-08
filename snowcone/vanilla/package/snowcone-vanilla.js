@@ -132,7 +132,20 @@ function addicons(){
 	"sc-hairline-up":		  "&#xf0a0;",
 	"sc-hairline-down":		  "&#xf0a1;",
 	"sc-hairline-right":	  "&#xf0a2;",
-	"sc-hairline-left":		  "&#xf0a3;"
+	"sc-hairline-left":		  "&#xf0a3;",
+	"sc-invarrow-up":	  	  "&#xf0a4;",
+	"sc-invarrow-down":		  "&#xf0a5;",
+	"sc-invarrow-right":	  "&#xf0a6;",
+	"sc-invarrow-left":		  "&#xf0a7;",
+	"sc-fb-nofill":			  "&#xf0a8;",
+	"sc-4sq-fill":		  	  "&#xf0a9;",
+	"sc-yt-fill":			  "&#xf0aa;",
+	"sc-4sq-ifill":	 		  "&#xf0ab;",
+	"sc-linkedin-fill":		  "&#xf0ac;",
+	"sc-linkedin-nofill":	  "&#xf0ad;",
+	"sc-padlock-open":		  "&#xf0ae;",
+	"sc-padlock-closed":	  "&#xf100;",
+	"sc-email-fill":		  "&#xf111;"
   };
 
   //Detect IE version
