@@ -37,7 +37,6 @@ http://creativecommons.org/licenses/by-sa/3.0/"
 .snowcone:before,
 .snowcone-legacy{
   font-family: "SnowconeVanilla";
-  font-size: 0.4em;
 }
 
 /* \f020 is not a valid unicode character. Start icons from here down. */
@@ -178,7 +177,3 @@ http://creativecommons.org/licenses/by-sa/3.0/"
 .sc-padlock-open:before       { content: "\f0ae"; }
 .sc-padlock-closed:before     { content: "\f100"; }
 .sc-email-fill:before         { content: "\f111"; }
-
-
-
-
